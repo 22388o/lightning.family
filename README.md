@@ -21,5 +21,7 @@ Finally, we have created a DAO in Aragon to account for development contribution
 ### The specific Challenge
 The Platform will hopefully contain soon a large amount of contents provided by members that should openly be accessible for improvement and update under certain common rules and discretionary negotiation between contributors. Thus each content may soon have a list of “owners” with corresponding shares of property over each content.
 We want to provide users with a low-cost access to information, so once they are logged in the Platform and start browsing contents, channels with the different owners must be established so that each element’ cost-per-view is detracted from his wallet automatically and distributed to its owners. This implies the following challenges:
-•	Automation of the payment requests -modulated by each content user ratings
-•	A Pay-per-click procedure (A built-in wallet in the Platform?)
+
+-	Automation of the payment requests -modulated by each content user ratings
+
+-	A Pay-per-click procedure (A built-in wallet in the Platform?)
