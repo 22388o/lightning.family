@@ -5,8 +5,12 @@
 - [x] LN node in raspberry
 
 - [x] Pre-population of LN resource contents
- 
+
+- [x] Governance framework in Aragon
+
 - [ ] Pay per click protocol
+
+- [ ] Admin panel for content management
 
 ## Introduction
 ### Our aim
