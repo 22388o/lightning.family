@@ -1,0 +1,9 @@
+{
+  "name": "lightning-family",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "GNU v3",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
