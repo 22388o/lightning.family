@@ -2,12 +2,10 @@
 ## Roadmap
 - [x] Visual taxonomy for intuitive discovery
 
-- [x] a
+- [x] LN node in raspberry
 
-- [x] b
+- [x] Pre-population of LN resource contents
  
-- [x] c
-
 - [ ] Pay per click protocol
 
 ## Introduction
