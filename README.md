@@ -1,5 +1,8 @@
 # Lightning Family
+<p align="center">
+
 ![Visual Prototype Gif](https://github.com/Lightning-Family/lightning.family/blob/master/img/giphy.gif)
+</p>
 ## Roadmap
 - [x] Visual taxonomy for intuitive discovery
 
