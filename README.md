@@ -1,12 +1,13 @@
 # Lightning Family
+![Visual Prototype Gif](https://github.com/Lightning-Family/lightning.family/blob/master/img/giphy.gif)
 ## Roadmap
 - [x] Visual taxonomy for intuitive discovery
 
-- [x] LN node in raspberry
+- [ ] LN full node integration
 
 - [x] Pre-population of LN resource contents
 
-- [x] Governance framework in Aragon
+- [x] Governance framework
 
 - [ ] Pay per click protocol
 
