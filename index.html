@@ -30,9 +30,15 @@ var color = d3.scaleLinear()
 var pack = d3.pack()
     .size([diameter - margin, diameter - margin])
     .padding(2);
+var element;
+
+ function search(text){
+   return element.children.filter( function (e) { return e.name === text});
+  }
 
 d3.json("categories.json/", function(error, root) {
   if (error) throw error;
+  element = root;
 
   root = d3.hierarchy(root)
       .sum(function(d) { return d.size; })
@@ -88,5 +94,4 @@ d3.json("categories.json/", function(error, root) {
     circle.attr("r", function(d) { return d.r * k; });
   }
 });
-
 </script>
