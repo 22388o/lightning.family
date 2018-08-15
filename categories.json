@@ -13,15 +13,66 @@
      {
       "name": "Wallets",
       "children": [
-       {"name": "Hardware", "size": 1833},
-       {"name": "Desktop", "size": 8732},
-       {"name": "Paper", "size": 1000},
-       {"name": "Mobile", "size": 10066},
-       {"name": "Web", "size": 3623}
+       {"name": "Hardware", "size": 1000},
+       {"name": "Desktop", "size": 6000},
+       {"name": "Paper", "size": 500},
+       {"name": "Mobile", "size": 4000},
+       {"name": "Web", "size": 1500}
 
       ]
      },
+     {
+      "name": "Documents",
+      "children": [
+        {"name": "LN Developers", "size": 700},
+        {
+          "name": "Learning",
+          "children": [
+           {
+            "name": "Medium Articles",
+            "children": [
+             {"name": "Understanding LN using an Abacus", "size": 700},
+             {"name": "LN is the Future of Bitcoin", "size": 550},
+             {"name": "Introducing Breez: a perfect LN card", "size": 1000},
+             {"name": "Don’t Buy Into the FUD", "size": 450}
+            ]
+           },
+           {
+            "name": "Wikis",
+            "children": [
+              {"name": "Fulmo wiki", "size": 400},
+              {"name": "Wikiversity", "size": 2000},
+              {"name": "Bitcoin Wiki", "size": 200},
+              {"name": "Bitcoin Wiki", "size": 200},
+              {"name": "Wikipedia", "size": 300}            ]
+           }
+          ]
+         },
+         {
+          "name": "Videos",
+          "children": [
+           {"name": "WikiMedia Commons", "size": 400},
+           {"name": "Lightning Makers", "size": 700}
+
+
+          ]
+         }
+        ]
+     },
     
+     {
+      "name": "Funding",
+      "children": [
+        {
+          "name": "VC",
+          "children": [
+           {"name": "a16z", "size": 2105},
+           {"name": "Steve Lee", "size": 300}          ]
+         },
+       {"name": "Crowdfunding", "size": 500}
+      ]
+     },
+
      {
       "name": "Consultants",
       "children": [
@@ -38,9 +89,36 @@
      {
       "name": "Events",
       "children": [
-       {"name": "Meet-ups", "size": 2105},
-       {"name": "Hackathons", "size": 1316},
-       {"name": "Conferences", "size": 3151}
+        {
+          "name": "Meet-ups",
+          "children": [
+            {
+              "name": "Switzerland",
+              "children": [
+               {"name": "Scaling Bitcoin with Lightning - Dr. Christian Decker", "size": 700}  
+              ]
+             },
+             {
+              "name": "Asmterdam",
+              "children": [
+               {"name": "Tech Tuesday: Lightning Network", "size": 300}  
+              ]
+             }
+            ]
+         },       {
+        "name": "Hackathons",
+        "children": [
+         {"name": "#LightningHackDay", "size": 700},
+         {"name": "Cripto Chapa", "size": 300}
+
+        ]
+       },
+       {
+        "name": "Conferences",
+        "children": [
+         {"name": "#LightningHackDay", "size": 700}
+        ]
+       }
       ]
      },
      {
@@ -55,13 +133,13 @@
         {
             "name": "Games",
             "children": [
-             {"name": "Satoshi's Games", "size": 7074},
-             {"name": "The Lightning Spin", "size": 4074},
-             {"name": "Microbet", "size": 5074},
-             {"name": "In Dice", "size": 2074},
-             {"name": "Lightning Gem", "size": 3074},
-             {"name": "In Plays", "size": 4074},
-             {"name": "Lightning Roulette", "size": 1074}
+             {"name": "Satoshi's Games", "size": 900},
+             {"name": "The Lightning Spin", "size": 1200},
+             {"name": "Microbet", "size": 3074},
+             {"name": "In Dice", "size": 800},
+             {"name": "Lightning Gem", "size": 500},
+             {"name": "In Plays", "size": 400},
+             {"name": "Lightning Roulette", "size": 1000}
 
             ]
            },
@@ -77,14 +155,14 @@
            {
             "name": "Faucets",
             "children": [
-             {"name": "Lightning Faucet", "size": 3074}
+             {"name": "Lightning Faucet", "size": 200}
             ]
            },
            {
             "name": "Exchanges",
             "children": [
-             {"name": "Submarine Swaps", "size": 5074},
-             {"name": "Zig Zag", "size": 5074}
+             {"name": "Submarine Swaps", "size": 1300},
+             {"name": "Zig Zag", "size": 800}
 
             ]
            },
@@ -100,14 +178,14 @@
            {
             "name": "Advertising",
             "children": [
-             {"name": "Satoshi's Place", "size": 5074}
+             {"name": "Satoshi's Place", "size": 1000}
             ]
            },
            {
             "name": "Blogs",
             "children": [
-             {"name": "Yalls", "size": 2074},
-             {"name": "WordPress Lightning Publisher", "size": 974}
+             {"name": "Yalls", "size": 1074},
+             {"name": "WordPress Lightning Publisher", "size": 400}
 
             ]
            },
@@ -115,11 +193,11 @@
             "name": "Utils",
             "children": [
              {"name": "Nanotip", "size": 800},
-             {"name": "IFTT", "size": 1500},
+             {"name": "IFTT", "size": 500},
              {"name": "Lightning Jukebox", "size": 1000},
-             {"name": "Pay Per Call", "size": 2500},
-             {"name": "Lightning Buddy", "size": 3074},
-             {"name": "Matreon", "size": 4074},
+             {"name": "Pay Per Call", "size": 800},
+             {"name": "Lightning Buddy", "size": 1074},
+             {"name": "Matreon", "size": 900},
              {"name": "In Tip Slack", "size": 800}
             ]
            }
