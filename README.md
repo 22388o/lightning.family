@@ -1,6 +1,17 @@
 # Lightning Family
 ![Visual Prototype Gif](https://github.com/Lightning-Family/lightning.family/blob/master/img/giphy.gif)
 
+
+## Set up
+### Requisites
+- (Yarn)[https://yarnpkg.com/lang/en/]
+
+1. Download & Install (Yarn)[https://yarnpkg.com/lang/en/]
+2. Clone the repository
+3. Open your terminal in the repository's folder
+4. Execute ````yarn http-server``` in your terminal
+5. In your web browser go to (localhost:8080)[http://localhost:8080]
+
 ## Roadmap
 - [x] Visual taxonomy for intuitive discovery
 
