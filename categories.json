@@ -1,0 +1,129 @@
+{
+    "name": "Lightning Family",
+    "children": [
+     {
+      "name": "Startups",
+      "children": [
+        {"name": "Fulmo", "size": 1833},
+        {"name": "Bitlum", "size": 1833},
+        {"name": "EBS", "size": 800}
+
+      ]
+     },
+     {
+      "name": "Wallets",
+      "children": [
+       {"name": "Hardware", "size": 1833},
+       {"name": "Desktop", "size": 8732},
+       {"name": "Paper", "size": 1000},
+       {"name": "Mobile", "size": 10066},
+       {"name": "Web", "size": 3623}
+
+      ]
+     },
+    
+     {
+      "name": "Consultants",
+      "children": [
+       {"name": "Hardware", "size": 1616},
+       { "name": "software",
+        "children": [
+         {"name": "Front-end", "size": 593},
+         {"name": "Back-end", "size": 593}
+        ]
+       },
+       {"name": "Business", "size": 1616}
+      ]
+     },
+     {
+      "name": "Events",
+      "children": [
+       {"name": "Meet-ups", "size": 2105},
+       {"name": "Hackathons", "size": 1316},
+       {"name": "Conferences", "size": 3151}
+      ]
+     },
+     {
+        "name": "Regulation",
+        "children": [
+         {"name": "Guides", "size": 500}
+        ]
+       },
+     {
+      "name": "Projects",
+      "children": [
+        {
+            "name": "Games",
+            "children": [
+             {"name": "Satoshi's Games", "size": 7074},
+             {"name": "The Lightning Spin", "size": 4074},
+             {"name": "Microbet", "size": 5074},
+             {"name": "In Dice", "size": 2074},
+             {"name": "Lightning Gem", "size": 3074},
+             {"name": "In Plays", "size": 4074},
+             {"name": "Lightning Roulette", "size": 1074}
+
+            ]
+           },
+           {
+            "name": "Hardware Nodes",
+            "children": [
+             {"name": "RaspiBolt", "size": 2074},
+             {"name": "RaspiBlitz", "size": 5074},
+             {"name": "Trueno", "size": 800}
+
+            ]
+           },
+           {
+            "name": "Faucets",
+            "children": [
+             {"name": "Lightning Faucet", "size": 3074}
+            ]
+           },
+           {
+            "name": "Exchanges",
+            "children": [
+             {"name": "Submarine Swaps", "size": 5074},
+             {"name": "Zig Zag", "size": 5074}
+
+            ]
+           },
+           {
+            "name": "eCommerce",
+            "children": [
+             {"name": "BTCPay Server", "size": 7074},
+             {"name": "WooCommerce WP plugin", "size": 2074},
+             {"name": "Filebazar", "size": 1074},
+             {"name": "Nanopos", "size": 800}
+            ]
+           },
+           {
+            "name": "Advertising",
+            "children": [
+             {"name": "Satoshi's Place", "size": 5074}
+            ]
+           },
+           {
+            "name": "Blogs",
+            "children": [
+             {"name": "Yalls", "size": 2074},
+             {"name": "WordPress Lightning Publisher", "size": 974}
+
+            ]
+           },
+           {
+            "name": "Utils",
+            "children": [
+             {"name": "Nanotip", "size": 800},
+             {"name": "IFTT", "size": 1500},
+             {"name": "Lightning Jukebox", "size": 1000},
+             {"name": "Pay Per Call", "size": 2500},
+             {"name": "Lightning Buddy", "size": 3074},
+             {"name": "Matreon", "size": 4074},
+             {"name": "In Tip Slack", "size": 800}
+            ]
+           }
+      ]
+     }
+    ]
+   }
