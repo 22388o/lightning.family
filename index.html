@@ -5,45 +5,15 @@
     <meta name="keywords" content="Lightning family, Lightning Network, Bitcoin">
     <meta charset="utf-8">
     <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="/css/main.css">
 
 </head>
-<style>
-
-body {
-    background-color: #A3F5CF;
-}
-
-.node {
-  cursor: pointer;
-}
-
-.node:hover {
-  stroke: #000;
-  stroke-width: 2px;
-}
-
-.node--leaf {
-  fill: whitesmoke;
-}
-
-.label {
-  font: 17px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-anchor: middle;
-  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
-}
-
-.label,
-.node--root,
-.node--leaf {
-  pointer-events: none;
-}
-
-</style>
 <body>
 <center>
 <svg width="960" height="960"></svg>
 </center>
 </body>
+
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
 
@@ -61,7 +31,7 @@ var pack = d3.pack()
     .size([diameter - margin, diameter - margin])
     .padding(2);
 
-d3.json("flare.json/", function(error, root) {
+d3.json("categories.json/", function(error, root) {
   if (error) throw error;
 
   root = d3.hierarchy(root)
