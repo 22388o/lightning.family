@@ -6,15 +6,21 @@
         "children": [
           {
             "name": "Fulmo",
+            "description": "Open source company dedicated to research, development and consultancy for the Bitcoin Lightning Network.",
+            "link": "https://fulmo.org/",
             "size": 1833
           },
           {
             "name": "Bitlum",
+            "description": "Building applications on top of Lightning Network.",
+            "link": "http://bitlum.io/",
             "size": 1833
           },
           {
-            "name": "EBS",
-            "size": 800
+            "name": "DiscoveryBlock",
+            "description": "Smart Spaceship to Navigate the Technology Universe",
+            "link": "https://discoveryblock.io/",
+            "size": 750
           }
         ]
       },
@@ -26,6 +32,8 @@
             "children": [
               {
                 "name": "LNHW",
+                "description": "Chainlab 2018 hackathon project for a Lightning Network hardware wallet.",
+                "link": "https://github.com/hkjn/lnhw/blob/master/chainhack-slides.pdf",
                 "size": 450
               }
             ]
@@ -35,6 +43,8 @@
             "children": [
               {
                 "name": "HTLC",
+                "description": "Web Wallet for Lightning Network.",
+                "link": "https://htlc.me/",
                 "size": 500
               }
             ]
@@ -44,6 +54,8 @@
             "children": [
               {
                 "name": "Zap",
+                "description": "Trustlessly send and receive bitcoin instantly with minimal fees via the Lightning Network.",
+                "link": "http://zap.jackmallers.com/",
                 "size": 1000
               }
             ]
@@ -53,39 +65,57 @@
             "children": [
               {
                 "name": "Shango",
-                "size": 750
+                "description": "Mobile wallet for Android and iOS devices.",
+                "link": "http://www.shangoapp.com/insider/",
+                "size": 350
               },
               {
                 "name": "Eclair",
+                "description": "Next generation, Lightning-ready Bitcoin wallet. It can be used as a regular Bitcoin wallet, and can also connect to the Lightning Network for cheap and instant payments.",
+                "link": "https://github.com/ACINQ/eclair-wallet/",
                 "size": 1200
               },
               {
                 "name": "Bitcoin Lightning",
+                "description": "This app features a standalone SPV Bitcoin node with a fully functional built-in Lightning node.",
+                "link": "http://lightning-wallet.com/",
                 "size": 500
               },
               {
                 "name": "Atom Lightning",
-                "size": 400
+                "description": "This app features a standalone SPV Bitcoin node with a fully functional built-in Lightning node.",
+                "link": "http://lightning-wallet.com/",
+                "size": 300
               },
               {
                 "name": "LigthningPeach",
+                "description": "Next generation, Lightning-ready Bitcoin wallet. It can be used as a regular Bitcoin wallet, and can also connect to the Lightning Network for cheap and instant payments.",
+                "link": "https://github.com/ACINQ/eclair-wallet",
                 "size": 250
               },
               {
                 "name": "CoinOS",
+                "description": "Mobile-friendly point-of-sale app that merchants can use to accept Bitcoin payments.",
+                "link": "https://coinos.io/",
                 "size": 250
               },
               {
                 "name": "Fulmo",
+                "description": "Minimalist c-lightning UI.",
+                "link": "https://github.com/marzig76/fulmo",
                 "size": 120
               },
               {
                 "name": "Zap iOS",
-                "size": 500
+                "description": "Trustlessly send and receive bitcoin instantly with minimal fees via the Lightning Network.",
+                "link": "http://zap.jackmallers.com/",
+                "size": 900
               },
               {
                 "name": "Swift Lightning",
-                "size": 300
+                "description": "Next generation, Lightning-ready Bitcoin wallet. It can be used as a regular Bitcoin wallet, and can also connect to the Lightning Network for cheap and instant payments.",
+                "link": "https://www.swiftlightning.io/",
+                "size": 700
               }
             ]
           }
@@ -243,6 +273,14 @@
             "children": [
               {
                 "name": "#LightningHackDay",
+                "description": "Bitcoin hackathon organized by Fulmo to learn share and buidl.",
+                "link": "https://lightninghackday.fulmo.org/",
+                "size": 700
+              },
+              {
+                "name": "Madrid Lightning Network",
+                "description": "Lightning Network & RSK hackathon organized by DiscoveryBlock to overcome Lightning Network & RSK challenges.",
+                "link": "https://madridlightning.network//",
                 "size": 700
               },
               {
@@ -256,6 +294,14 @@
             "children": [
               {
                 "name": "#LightningHackDay",
+                "description": "Bitcoin conference organized by Fulmo to learn share and buidl.",
+                "link": "https://lightninghackday.fulmo.org/",
+                "size": 1200
+              },
+              {
+                "name": "Madrid Lightning Network",
+                "description": "Lightning Network & RSK conference organized by DiscoveryBlock to learn and research about Bitcoin second layer protocols.",
+                "link": "https://madridlightning.network//",
                 "size": 700
               }
             ]
@@ -416,7 +462,7 @@
             "children": [
               {
                 "name": "Satoshi's Games",
-                "size": 900
+                "size": 750
               },
               {
                 "name": "Moneni",
@@ -424,15 +470,15 @@
               },
               {
                 "name": "The Lightning Spin",
-                "size": 750
+                "size": 300
               },
               {
-                "name": "Image Unblurrer",
-                "size": 200
+                "name": "Unblurrer",
+                "size": 100
               },
               {
                 "name": "Microbet",
-                "size": 800
+                "size": 500
               },
               {
                 "name": "In Dice",
@@ -444,7 +490,7 @@
               },
               {
                 "name": "In Plays",
-                "size": 400
+                "size": 200
               },
               {
                 "name": "Lightning Roulette",
