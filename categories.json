@@ -35,7 +35,7 @@
             "children": [
               {
                 "name": "HTLC",
-                "size": 1000
+                "size": 500
               }
             ]
           },
@@ -53,7 +53,7 @@
             "children": [
               {
                 "name": "Shango",
-                "size": 1000
+                "size": 750
               },
               {
                 "name": "Eclair",
@@ -61,7 +61,7 @@
               },
               {
                 "name": "Bitcoin Lightning",
-                "size": 800
+                "size": 500
               },
               {
                 "name": "Atom Lightning",
@@ -279,19 +279,135 @@
             "children": [
               {
                 "name": "Moonstuff",
-                "size": 900
+                "size": 400
               },
               {
-                "name": "Kriptode",
-                "size": 900
+                "name": "C+C Remeras",
+                "size": 300
+              },
+              {
+                "name": "Bitcoin Art",
+                "size": 200
+              },
+              {
+                "name": "Joltfun",
+                "size": 200
+              },
+              {
+                "name": "Bitgild",
+                "size": 400
+              },
+              {
+                "name": "Cryptoid Shop",
+                "size": 180
+              },
+              {
+                "name": "YYBazaar",
+                "size": 300
+              },
+              {
+                "name": "Crypto Cloaks",
+                "size": 500
+              },
+              {
+                "name": "Eichenhain",
+                "size": 75
+              },
+              {
+                "name": "Coin Cards",
+                "size": 350
+              },
+              {
+                "name": "Never Fiat",
+                "size": 300
+              },
+              {
+                "name": "Bit Launch",
+                "size": 200
+              },
+              {
+                "name": "Coin Mall",
+                "size": 100
+              },
+              {
+                "name": "Domorder",
+                "size": 200
+              },
+              {
+                "name": "Hipp Tee",
+                "size": 150
+              },
+              {
+                "name": "Ligthning Farm",
+                "size": 250
+              },
+              {
+                "name": "Bitcoin Shirt",
+                "size": 800
+              },
+              {
+                "name": "Wears My Liberty",
+                "size": 600
+              },
+              {
+                "name": "LNDlife",
+                "size": 800
+              },
+              {
+                "name": "The Kashbash",
+                "size": 300
+              },
+              {
+                "name": "BTC Echo",
+                "size": 100
+              },
+              {
+                "name": "Gully Flip",
+                "size": 280
+              },
+              {
+                "name": "Peer Name",
+                "size": 600
+              },
+              {
+                "name": "Quinsolo",
+                "size": 75
+              },
+              {
+                "name": "Tor Guard",
+                "size": 150
               },
               {
                 "name": "Coingate",
+                "size": 150
+              },
+              {
+                "name": "LN SMS",
+                "size": 350
+              },
+              {
+                "name": "The Vault",
+                "size": 220
+              },
+              {
+                "name": "Bitrefill",
                 "size": 900
               },
               {
+                "name": "StarBlocks",
+                "size": 500
+              },
+              {
+                "name": "Crypto Shopper",
+                "size": 300
+              },
+              {
+                "name": "Filebazar",
+                "size": 800
+              },
+              {
                 "name": "LNCast",
-                "size": 900
+                "size": 150
               }
             ]
           },
@@ -303,16 +419,24 @@
                 "size": 900
               },
               {
+                "name": "Moneni",
+                "size": 300
+              },
+              {
                 "name": "The Lightning Spin",
-                "size": 1200
+                "size": 750
+              },
+              {
+                "name": "Image Unblurrer",
+                "size": 200
               },
               {
                 "name": "Microbet",
-                "size": 3074
+                "size": 800
               },
               {
                 "name": "In Dice",
-                "size": 800
+                "size": 200
               },
               {
                 "name": "Lightning Gem",
@@ -337,15 +461,15 @@
             "children": [
               {
                 "name": "RaspiBolt",
-                "size": 2074
+                "size": 1000
               },
               {
                 "name": "RaspiBlitz",
-                "size": 5074
+                "size": 2500
               },
               {
                 "name": "Trueno",
-                "size": 800
+                "size": 200
               }
             ]
           },
@@ -382,6 +506,22 @@
                 "size": 500
               },
               {
+                "name": "Bitbargain",
+                "size": 150
+              },
+              {
+                "name": "Bitgild",
+                "size": 400
+              },
+              {
+                "name": "Lightning Conductor",
+                "size": 600
+              },
+              {
+                "name": "Mercuriex",
+                "size": 400
+              },
+              {
                 "name": "Bitcoin Venezuela",
                 "size": 800
               }
@@ -392,19 +532,27 @@
             "children": [
               {
                 "name": "BTCPay Server",
-                "size": 7074
+                "size": 5000
+              },
+              {
+                "name": "lIGHTNING cHARGE",
+                "size": 3000
               },
               {
                 "name": "WooCommerce WP plugin",
-                "size": 2074
+                "size": 1000
               },
               {
-                "name": "Filebazar",
-                "size": 1074
+                "name": "Kriptode",
+                "size": 400
+              },
+              {
+                "name": "Living Room of Satoshi",
+                "size": 800
               },
               {
                 "name": "Nanopos",
-                "size": 800
+                "size": 400
               }
             ]
           },
@@ -414,6 +562,10 @@
               {
                 "name": "Satoshi's Place",
                 "size": 1000
+              },
+              {
+                "name": "Art of Lightning",
+                "size": 300
               }
             ]
           },
@@ -423,6 +575,10 @@
               {
                 "name": "Yalls",
                 "size": 1074
+              },
+              {
+                "name": "Thunder Message",
+                "size": 650
               },
               {
                 "name": "WordPress Lightning Publisher",
@@ -435,11 +591,11 @@
             "children": [
               {
                 "name": "Nanotip",
-                "size": 800
+                "size": 400
               },
               {
                 "name": "IFTT",
-                "size": 500
+                "size": 350
               },
               {
                 "name": "Lightning Jukebox",
@@ -447,15 +603,19 @@
               },
               {
                 "name": "Pay Per Call",
-                "size": 800
+                "size": 250
               },
               {
                 "name": "Lightning Buddy",
-                "size": 1074
+                "size": 400
               },
               {
                 "name": "Matreon",
-                "size": 900
+                "size": 500
+              },
+              {
+                "name": "Quote From Me",
+                "size": 300
               },
               {
                 "name": "In Tip Slack",
