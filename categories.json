@@ -12,7 +12,7 @@
           },
           {
             "name": "Bitlum",
-            "description": "Building applications on top of Lightning Network.",
+            "description": "Building applications on top of Lightning Network",
             "link": "http://bitlum.io/",
             "size": 1833
           },
@@ -32,7 +32,7 @@
             "children": [
               {
                 "name": "LNHW",
-                "description": "Chainlab 2018 hackathon project for a Lightning Network hardware wallet.",
+                "description": "Chainlab 2018 hackathon project for a Lightning Network hardware wallet",
                 "link": "https://github.com/hkjn/lnhw/blob/master/chainhack-slides.pdf",
                 "size": 450
               }
@@ -43,7 +43,7 @@
             "children": [
               {
                 "name": "HTLC",
-                "description": "Web Wallet for Lightning Network.",
+                "description": "Web Wallet for Lightning Network",
                 "link": "https://htlc.me/",
                 "size": 500
               }
@@ -54,7 +54,7 @@
             "children": [
               {
                 "name": "Zap",
-                "description": "Trustlessly send and receive bitcoin instantly with minimal fees via the Lightning Network.",
+                "description": "Trustlessly send and receive bitcoin instantly with minimal fees via the Lightning Network",
                 "link": "http://zap.jackmallers.com/",
                 "size": 1000
               }
@@ -65,19 +65,19 @@
             "children": [
               {
                 "name": "Shango",
-                "description": "Mobile wallet for Android and iOS devices.",
+                "description": "Mobile wallet for Android and iOS devices",
                 "link": "http://www.shangoapp.com/insider/",
                 "size": 350
               },
               {
                 "name": "Eclair",
-                "description": "Next generation, Lightning-ready Bitcoin wallet. It can be used as a regular Bitcoin wallet, and can also connect to the Lightning Network for cheap and instant payments.",
+                "description": "Next generation, Lightning-ready Bitcoin wallet. It can be used as a regular Bitcoin wallet, and can also connect to the Lightning Network for cheap and instant payments",
                 "link": "https://github.com/ACINQ/eclair-wallet/",
                 "size": 1200
               },
               {
                 "name": "Bitcoin Lightning",
-                "description": "This app features a standalone SPV Bitcoin node with a fully functional built-in Lightning node.",
+                "description": "This app features a standalone SPV Bitcoin node with a fully functional built-in Lightning node",
                 "link": "http://lightning-wallet.com/",
                 "size": 500
               },
@@ -89,31 +89,31 @@
               },
               {
                 "name": "LigthningPeach",
-                "description": "Next generation, Lightning-ready Bitcoin wallet. It can be used as a regular Bitcoin wallet, and can also connect to the Lightning Network for cheap and instant payments.",
+                "description": "Next generation, Lightning-ready Bitcoin wallet. It can be used as a regular Bitcoin wallet, and can also connect to the Lightning Network for cheap and instant payments",
                 "link": "https://github.com/ACINQ/eclair-wallet",
                 "size": 250
               },
               {
                 "name": "CoinOS",
-                "description": "Mobile-friendly point-of-sale app that merchants can use to accept Bitcoin payments.",
+                "description": "Mobile-friendly point-of-sale app that merchants can use to accept Bitcoin payments",
                 "link": "https://coinos.io/",
                 "size": 250
               },
               {
                 "name": "Fulmo",
-                "description": "Minimalist c-lightning UI.",
+                "description": "Minimalist c-lightning UI",
                 "link": "https://github.com/marzig76/fulmo",
                 "size": 120
               },
               {
                 "name": "Zap iOS",
-                "description": "Trustlessly send and receive bitcoin instantly with minimal fees via the Lightning Network.",
+                "description": "Trustlessly send and receive bitcoin instantly with minimal fees via the Lightning Network",
                 "link": "http://zap.jackmallers.com/",
                 "size": 900
               },
               {
                 "name": "Swift Lightning",
-                "description": "Next generation, Lightning-ready Bitcoin wallet. It can be used as a regular Bitcoin wallet, and can also connect to the Lightning Network for cheap and instant payments.",
+                "description": "Next generation, Lightning-ready Bitcoin wallet. It can be used as a regular Bitcoin wallet, and can also connect to the Lightning Network for cheap and instant payments",
                 "link": "https://www.swiftlightning.io/",
                 "size": 700
               }
@@ -126,6 +126,8 @@
         "children": [
           {
             "name": "LN Developers",
+            "description": "Building applications on top of Lightning Network",
+            "link": "http://bitlum.io/",
             "size": 700
           },
           {
@@ -136,18 +138,26 @@
                 "children": [
                   {
                     "name": "Understanding LN using an Abacus",
+                    "description": "Simplified explanation of LN transactions using an analogy with abacus bead movements. By Roy Sheinfeld",
+                    "link": "https://medium.com/breez-technology/understanding-lightning-network-using-an-abacus-daad8dc4cf4b",
                     "size": 700
                   },
                   {
                     "name": "LN is the Future of Bitcoin",
+                    "description": "Overview of some bitcoin shortcomings and how LN may overcome them. By Roy Sheinfeld",
+                    "link": "https://medium.com/breez-technology/the-future-of-bitcoin-3187aefe2746",
                     "size": 550
                   },
                   {
                     "name": "Introducing Breez: a perfect LN card",
+                    "description": "Introduction to the Breez LN card, an initiative that will help Lightning Network to be widely adopted by users and businesses. By Roy Sheinfeld",
+                    "link": "https://medium.com/breez-technology/introducing-strike-a-simple-fast-and-safe-bitcoin-card-750ffa67df80",
                     "size": 1000
                   },
                   {
                     "name": "Don’t Buy Into the FUD",
+                    "description": "Refuting arguments against implementation of LN. By Roy Sheinfeld",
+                    "link": "https://medium.com/breez-technology/lightning-network-dont-buy-into-the-fud-236b05cb7f27",
                     "size": 450
                   }
                 ]
@@ -157,22 +167,32 @@
                 "children": [
                   {
                     "name": "Fulmo wiki",
+                    "description": "",
+                    "link": "",
                     "size": 400
                   },
                   {
                     "name": "Wikiversity",
+                    "description": "",
+                    "link": "",
                     "size": 2000
                   },
                   {
                     "name": "Bitcoin Wiki",
+                    "description": "",
+                    "link": "",
                     "size": 200
                   },
                   {
                     "name": "Bitcoin Wiki",
+                    "description": "",
+                    "link": "",
                     "size": 200
                   },
                   {
                     "name": "Wikipedia",
+                    "description": "",
+                    "link": "",
                     "size": 300
                   }
                 ]
@@ -184,10 +204,14 @@
             "children": [
               {
                 "name": "WikiMedia Commons",
+                "description": "",
+                "link": "",
                 "size": 400
               },
               {
                 "name": "Lightning Makers",
+                "description": "",
+                "link": "",
                 "size": 700
               }
             ]
@@ -202,10 +226,14 @@
             "children": [
               {
                 "name": "a16z",
+                "description": "",
+                "link": "",
                 "size": 2105
               },
               {
                 "name": "Steve Lee",
+                "description": "",
+                "link": "",
                 "size": 300
               }
             ]
@@ -221,6 +249,8 @@
         "children": [
           {
             "name": "Hardware",
+            "description": "",
+            "link": "",
             "size": 1616
           },
           {
@@ -228,16 +258,22 @@
             "children": [
               {
                 "name": "Front-end",
+                "description": "",
+                "link": "",
                 "size": 593
               },
               {
                 "name": "Back-end",
+                "description": "",
+                "link": "",
                 "size": 593
               }
             ]
           },
           {
             "name": "Business",
+            "description": "",
+            "link": "",
             "size": 1616
           }
         ]
@@ -253,6 +289,8 @@
                 "children": [
                   {
                     "name": "Scaling Bitcoin with Lightning - Dr. Christian Decker",
+                    "description": "",
+                    "link": "",
                     "size": 700
                   }
                 ]
@@ -262,6 +300,8 @@
                 "children": [
                   {
                     "name": "Tech Tuesday: Lightning Network",
+                    "description": "",
+                    "link": "",
                     "size": 300
                   }
                 ]
