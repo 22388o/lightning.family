@@ -155,6 +155,18 @@
                     "size": 1000
                   },
                   {
+                    "name": "LN for non-technical learners",
+                    "description": "High-level overview of LN for non-technical readers. By Mohit Mamoria",
+                    "link": "https://hackernoon.com/lightning-network-explained-d4615c12ad09",
+                    "size": 1000
+                  },
+                  {
+                    "name": "Tutorial on LN node setup",
+                    "description": "Setting up a LN node in 30 minutes for Windows desktop users - only in the BTC testnet. By Jad Mubaslat",
+                    "link": "https://medium.com/@jadmubaslat/bitcoin-lightning-network-node-easy-setup-tutorial-for-windows-desktop-users-a-how-to-guide-9937b5a8a669",
+                    "size": 1000
+                  },
+                  {
                     "name": "Don’t Buy Into the FUD",
                     "description": "Refuting arguments against implementation of LN. By Roy Sheinfeld",
                     "link": "https://medium.com/breez-technology/lightning-network-dont-buy-into-the-fud-236b05cb7f27",
@@ -167,32 +179,26 @@
                 "children": [
                   {
                     "name": "Fulmo wiki",
-                    "description": "",
-                    "link": "",
+                    "description": "Wiki gathering information about Lightning Hackdays organized by the company Fulmo",
+                    "link": "https://wiki.fulmo.org/index.php?title=Lightning_Hackday_Wiki",
                     "size": 400
                   },
                   {
                     "name": "Wikiversity",
-                    "description": "",
-                    "link": "",
+                    "description": "A repository of teaching contents about LN, with articles, tutorials, videos, documentation",
+                    "link": "https://en.m.wikiversity.org/wiki/Lightning_Network",
                     "size": 2000
                   },
                   {
                     "name": "Bitcoin Wiki",
-                    "description": "",
-                    "link": "",
-                    "size": 200
-                  },
-                  {
-                    "name": "Bitcoin Wiki",
-                    "description": "",
-                    "link": "",
+                    "description": "The largest wiki around bitcoin, created in 2010 and maintained by the bitcon community",
+                    "link": "https://en.bitcoin.it/wiki/Main_Page",
                     "size": 200
                   },
                   {
                     "name": "Wikipedia",
-                    "description": "",
-                    "link": "",
+                    "description": "The original free online collaborative Encyclopedia",
+                    "link": "https://en.wikipedia.org/wiki/Main_Page",
                     "size": 300
                   }
                 ]
