@@ -31,10 +31,16 @@ Business environments as life itself gets more and more complex, pushing us all 
 Then, we have created a simple taxonomy and added a sample of relevant information (projects, documentation, start-ups, events) to invite the whole community collaborate on the construction of a comprehensive, complete, repository of quality information anyone can follow and apply. 
 Then, we have developed a first prototype of a LN process on a Raspberry node that enables micro-transactions between content consumers’ and content owners’ wallets on the testnet.
 Finally, we have created a DAO in Aragon to account for development contributions and subsequent project governance.
-### The specific Challenge
+### The specific Challenges
 The Platform will hopefully contain soon a large amount of contents provided by members that should openly be accessible for improvement and update under certain common rules and discretionary negotiation between contributors. Thus each content may soon have a list of “owners” with corresponding shares of property over each content.
 We want to provide users with a low-cost access to information, so once they are logged in the Platform and start browsing contents, channels with the different owners must be established so that each element’ cost-per-view is detracted from his wallet automatically and distributed to its owners. This implies the following challenges:
 
--	Automation of the payment requests -modulated by each content user ratings
+-	[Non-Custodial web wallet](https://github.com/Lightning-Family/Lightning-Network-Challenges-Bounties/tree/master/Challenge%201)
+:trophy:**Bounty:** [Nano Ledger s](https://www.amazon.com/Ledger-Nano-criptomonedas-especialmente-compatible/dp/B01J66NF46/ref=sr_1_2?ie=UTF8&qid=1535026192&sr=8-2&keywords=nano+ledger+s) + 1 000 000 satoshis
 
--	A Pay-per-click procedure (A built-in wallet in the Platform?)
+-	[Pay-per-click procedure (Pay per Call procedure)](https://github.com/Lightning-Family/Lightning-Network-Challenges-Bounties/tree/master/Challenge%202)
+:trophy:**Bounty:** 100USD via BTC or Amazon voucher
+
+- [P2mP Transactions](https://github.com/Lightning-Family/Lightning-Network-Challenges-Bounties/tree/master/Challenge%203)
+:trophy:**Bounty:** [#RaspiBltiz fully configured](https://github.com/rootzoll/raspiblitz) + 500 000 satoshis
+
