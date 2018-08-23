@@ -35,12 +35,12 @@ Finally, we have created a DAO in Aragon to account for development contribution
 The Platform will hopefully contain soon a large amount of contents provided by members that should openly be accessible for improvement and update under certain common rules and discretionary negotiation between contributors. Thus each content may soon have a list of “owners” with corresponding shares of property over each content.
 We want to provide users with a low-cost access to information, so once they are logged in the Platform and start browsing contents, channels with the different owners must be established so that each element’ cost-per-view is detracted from his wallet automatically and distributed to its owners. This implies the following challenges:
 
--	[Non-Custodial web wallet](https://github.com/Lightning-Family/Lightning-Network-Challenges-Bounties/tree/master/Challenge%201)
+-	[Non-Custodial web wallet](https://github.com/Lightning-Family/Lightning-Network-Challenges-Bounties/tree/master/Challenge%201)<br>
 :trophy:**Bounty:** [Nano Ledger s](https://www.amazon.com/Ledger-Nano-criptomonedas-especialmente-compatible/dp/B01J66NF46/ref=sr_1_2?ie=UTF8&qid=1535026192&sr=8-2&keywords=nano+ledger+s) + 1 000 000 satoshis
 
--	[Pay-per-click procedure (Pay per Call procedure)](https://github.com/Lightning-Family/Lightning-Network-Challenges-Bounties/tree/master/Challenge%202)
+-	[Pay-per-click procedure (Pay per Call procedure)](https://github.com/Lightning-Family/Lightning-Network-Challenges-Bounties/tree/master/Challenge%202) <br>
 :trophy:**Bounty:** 100USD via BTC or Amazon voucher
 
-- [P2mP Transactions](https://github.com/Lightning-Family/Lightning-Network-Challenges-Bounties/tree/master/Challenge%203)
+- [P2mP Transactions](https://github.com/Lightning-Family/Lightning-Network-Challenges-Bounties/tree/master/Challenge%203)<br>
 :trophy:**Bounty:** [#RaspiBltiz fully configured](https://github.com/rootzoll/raspiblitz) + 500 000 satoshis
 
