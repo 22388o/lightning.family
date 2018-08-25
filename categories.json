@@ -200,7 +200,7 @@
                     "description": "The original free online collaborative Encyclopedia",
                     "link": "https://en.wikipedia.org/wiki/Main_Page",
                     "size": 300
-                  }
+                  },
                 ]
               }
             ]
@@ -210,15 +210,37 @@
             "children": [
               {
                 "name": "WikiMedia Commons",
-                "description": "",
-                "link": "",
-                "size": 400
+                "children": [
+                  {
+                  "name": "Lightning Network Explained",
+                  "description": "A illustrative video showing of the basics of LN transactions between three nodes, August 2018. By Kjerish",
+                  "link": "https://commons.wikimedia.org/wiki/File:Lightning_Network_Explained.webm",
+                  "size": 400
+                  },
+                  {
+                  "name": "Buying Coffee at Lightning Speed",
+                  "description": "A 30min speech by Christian Decker explaining the principles of LN, using the practical example of purchasing a coffee through an off-chain transaction ",
+                  "link": "https://commons.wikimedia.org/wiki/File:Buying_Coffee_at_Lightning_Speed_by_Dr._Christian_Decker.webm",
+                  "size": 400
+                  },
+               ] 
               },
               {
                 "name": "Lightning Makers",
-                "description": "",
-                "link": "",
-                "size": 700
+                "children": [
+                  {
+                  "name": "Videocall 1",
+                  "description": "Recorded video of the 1st Lightning Makers group members videocall",
+                  "link": "https://www.youtube.com/watch?v=Vtxi3hljXTY",
+                  "size": 400
+                  },
+                  {
+                  "name": "Videocall 2",
+                  "description": "Recorded video of the 2nd Lightning Makers group members videocall",
+                  "link": "https://www.youtube.com/watch?v=TBujEOy-gFQ",
+                  "size": 400
+                  }
+                ]                  
               }
             ]
           }
