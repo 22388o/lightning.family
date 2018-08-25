@@ -13,13 +13,15 @@
 ## Roadmap
 - [x] Visual taxonomy for intuitive discovery
 
-- [ ] LN full node integration
-
 - [x] Pre-population of LN resource contents
 
 - [x] Governance framework
 
-- [ ] Pay per click protocol
+- [x] Custodial web wallet on testnet
+
+- [ ] Pay per click procedure
+
+- [ ] Non-Custodial web wallet
 
 - [ ] Admin panel for content management
 
