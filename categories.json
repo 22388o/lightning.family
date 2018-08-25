@@ -200,7 +200,7 @@
                     "description": "The original free online collaborative Encyclopedia",
                     "link": "https://en.wikipedia.org/wiki/Main_Page",
                     "size": 300
-                  },
+                  }
                 ]
               }
             ]
@@ -222,7 +222,7 @@
                   "description": "A 30min speech by Christian Decker explaining the principles of LN, using the practical example of purchasing a coffee through an off-chain transaction ",
                   "link": "https://commons.wikimedia.org/wiki/File:Buying_Coffee_at_Lightning_Speed_by_Dr._Christian_Decker.webm",
                   "size": 400
-                  },
+                  }
                ] 
               },
               {
