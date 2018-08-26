@@ -254,13 +254,13 @@
             "children": [
               {
                 "name": "a16z",
-                "description": "",
-                "link": "",
+                "description": "Silicon Valley based VC firm Andreessen Horowitz, raised over $7B to date",
+                "link": "https://a16z.com/",
                 "size": 2105
               },
               {
                 "name": "Steve Lee",
-                "description": "",
+                "description": "San Francisco based BA getting active in LN, former product director at Google and willing to contribute to LN ecosystem funding",
                 "link": "",
                 "size": 300
               }
@@ -393,134 +393,200 @@
             "children": [
               {
                 "name": "Moonstuff",
+                "description": "A lightning network powered bitcoin novelty store here to help prep you for moon",
+                "link": "https://www.moonstuff.co/",
                 "size": 400
               },
               {
                 "name": "C+C Remeras",
+                "description": "Online t-shirt store with some funny crypto-designs, accepting payments through LN",
+                "link": "https://cmascremeras.store/",
                 "size": 300
               },
               {
                 "name": "Bitcoin Art",
+                "description": "",
+                "link": "",
                 "size": 200
               },
               {
                 "name": "Joltfun",
+                "description": "Games store accepting payments through LN. 1,000+ games from Steam, Origin, Uplay, Battle.net, Xbox Live, Rockstar",
+                "link": "https://joltfun.com/",
                 "size": 200
               },
               {
                 "name": "Bitgild",
+                "description": "One of the largest European gold and silver internet shops. You can buy gold and silver with Ethereum, Bitcoin/LN, Litecoin, Ripple and more",
+                "link": "https://www.bitgild.com/",
                 "size": 400
               },
               {
                 "name": "Cryptoid Shop",
+                "description": "https://www.cryptoidshop.com/",
+                "link": "Online t-shirt store with crypto-designs, accepting payments through LN",
                 "size": 180
               },
               {
                 "name": "YYBazaar",
+                "description": "Online apparel store accepting payments through LN ",
+                "link": "https://yybazaar.com/",
                 "size": 300
               },
               {
                 "name": "Crypto Cloaks",
+                "description": "Storing devices for keeping your hardwallets and crypto assets hidden and protected",
+                "link": "https://thecryptocloak.com/",
                 "size": 500
               },
               {
                 "name": "Eichenhain",
+                "description": "We help you find good things for a good life. We eat healthy, we live healthy, we exercise, we take care of the environment and of society",
+                "link": "https://www.eichenhain.com/en/jerky-co/ochsenriegel",
                 "size": 75
               },
               {
                 "name": "Coin Cards",
+                "description": "Coincards.ca offers a huge selection of both Electronic and Physical Gift Cards from Hundreds of Canadian Retailers, Including all the Top Brands",
+                "link": "https://coincards.ca/",
                 "size": 350
               },
               {
                 "name": "Never Fiat",
+                "description": "Crypto marketplace selling apparel and electronics",
+                "link": "https://neverfiat.com/",
                 "size": 300
               },
               {
                 "name": "Bit Launch",
+                "description": "Pay for cloud servers with Bitcoin, Ethereum, Ripple, Dash, Litecoin and many others",
+                "link": "https://bitlaunch.io/",
                 "size": 200
               },
               {
                 "name": "Coin Mall",
+                "description": "Crypto marketplace for digital products",
+                "link": "https://www.coinmall.com/",
                 "size": 100
               },
               {
                 "name": "Domorder",
+                "description": "Online store for hosting, website development and domain services",
+                "link": "https://www.domorder.com/",
                 "size": 200
               },
               {
                 "name": "Hipp Tee",
+                "description": "Online store for t-shirts and hoodies, accepting LN for payment",
+                "link": "https://hipptee.com/",
                 "size": 150
               },
               {
                 "name": "Ligthning Farm",
+                "description": "We're on a mission to build an open source, upgradeable and economic portable Bitcoin full node connected to Lightning Network where every user can access and interact easily",
+                "link": "https://hipptee.com/",
                 "size": 250
               },
               {
                 "name": "Bitcoin Shirt",
+                "description": "We specialize in producing high quality and unique Bitcoin merchandise including T-Shirts, Phone Cases, Mugs, Hats, Posters and more",
+                "link": "https://bitcoinshirt.co/",
                 "size": 800
               },
               {
                 "name": "Wears My Liberty",
+                "description": "Online store. Liberty Shirts, Hats, Hoodies & More, offering discounts for Bitcoin payments",
+                "link": "https://wearsmyliberty.com/",
                 "size": 600
               },
               {
                 "name": "LNDlife",
+                "description": "LNDlife is committed to helping grow and test the lightning network by providing its products to the growing community of nodes that transact on it. ",
+                "link": "https://lndlife.com/",
                 "size": 800
               },
               {
                 "name": "The Kashbash",
+                "description": "A dynamic and laid-back coworking space promoting blockchain related events",
+                "link": "https://www.thekasbahhub.com/",
                 "size": 300
               },
               {
                 "name": "BTC Echo",
+                "description": "Books and merchandise store with some items related with blockchain and bitcoin",
+                "link": "",
                 "size": 100
               },
               {
                 "name": "Gully Flip",
+                "description": "Your One Stop Shop For Gaming, Cosplay, Collectibles And Much More, accepting crytocurrency",
+                "link": "https://gullyflip.com/",
                 "size": 280
               },
               {
                 "name": "Peer Name",
+                "description": "Blockchain-Based Domain Names Registrar, accepting payment by LN",
+                "link": "https://peername.com/",
                 "size": 600
               },
               {
                 "name": "Quinsolo",
+                "description": "Onliine store for cryptocurrency merchandise, accepting cryto payment",
+                "link": "https://quinsolo.com/",
                 "size": 75
               },
               {
                 "name": "Tor Guard",
+                "description": "",
+                "link": "",
                 "size": 150
               },
               {
                 "name": "Coingate",
+                "description": "",
+                "link": "",
                 "size": 150
               },
               {
                 "name": "LN SMS",
+                "description": "",
+                "link": "",
                 "size": 350
               },
               {
                 "name": "The Vault",
+                "description": "",
+                "link": "",
                 "size": 220
               },
               {
                 "name": "Bitrefill",
+                "description": "",
+                "link": "",
                 "size": 900
               },
               {
                 "name": "StarBlocks",
+                "description": "",
+                "link": "",
                 "size": 500
               },
               {
                 "name": "Crypto Shopper",
+                "description": "",
+                "link": "",
                 "size": 300
               },
               {
                 "name": "Filebazar",
+                "description": "",
+                "link": "",
                 "size": 800
               },
               {
                 "name": "LNCast",
+                "description": "",
+                "link": "",
                 "size": 150
               }
             ]
@@ -530,42 +596,62 @@
             "children": [
               {
                 "name": "Satoshi's Games",
+                "description": "",
+                "link": "",
                 "size": 750
               },
               {
                 "name": "Moneni",
+                "description": "",
+                "link": "",
                 "size": 300
               },
               {
                 "name": "The Lightning Spin",
+                "description": "",
+                "link": "",
                 "size": 300
               },
               {
                 "name": "Unblurrer",
+                "description": "",
+                "link": "",
                 "size": 100
               },
               {
                 "name": "Microbet",
+                "description": "",
+                "link": "",
                 "size": 500
               },
               {
                 "name": "In Dice",
+                "description": "",
+                "link": "",
                 "size": 200
               },
               {
                 "name": "Lightning Gem",
+                "description": "",
+                "link": "",
                 "size": 500
               },
               {
                 "name": "In Plays",
+                "description": "",
+                "link": "",
                 "size": 200
               },
               {
                 "name": "Lightning Roulette",
+                "description": "",
+                "link": "",
                 "size": 1000
               },
               {
                 "name": "Arcade Money",
+                "description": "",
+                "link": "",
                 "size": 400
               }
             ]
@@ -575,14 +661,20 @@
             "children": [
               {
                 "name": "RaspiBolt",
+                "description": "",
+                "link": "",
                 "size": 1000
               },
               {
                 "name": "RaspiBlitz",
+                "description": "",
+                "link": "",
                 "size": 2500
               },
               {
                 "name": "Trueno",
+                "description": "",
+                "link": "",
                 "size": 200
               }
             ]
@@ -592,18 +684,26 @@
             "children": [
               {
                 "name": "Appspot",
+                "description": "",
+                "link": "",
                 "size": 100
               },
               {
                 "name": "Backend Hmaburg",
+                "description": "",
+                "link": "",
                 "size": 200
               },
               {
                 "name": "Coinfaucet",
+                "description": "",
+                "link": "",
                 "size": 350
               },
               {
                 "name": "Kuttler",
+                "description": "",
+                "link": "",
                 "size": 180
               }
             ]
@@ -613,30 +713,44 @@
             "children": [
               {
                 "name": "Submarine Swaps",
+                "description": "",
+                "link": "",
                 "size": 1300
               },
               {
                 "name": "Zig Zag",
+                "description": "",
+                "link": "",
                 "size": 500
               },
               {
                 "name": "Bitbargain",
+                "description": "",
+                "link": "",
                 "size": 150
               },
               {
                 "name": "Bitgild",
+                "description": "",
+                "link": "",
                 "size": 400
               },
               {
                 "name": "Lightning Conductor",
+                "description": "",
+                "link": "",
                 "size": 600
               },
               {
                 "name": "Mercuriex",
+                "description": "",
+                "link": "",
                 "size": 400
               },
               {
                 "name": "Bitcoin Venezuela",
+                "description": "",
+                "link": "",
                 "size": 800
               }
             ]
@@ -646,26 +760,38 @@
             "children": [
               {
                 "name": "BTCPay Server",
+                "description": "",
+                "link": "",
                 "size": 5000
               },
               {
                 "name": "lIGHTNING cHARGE",
+                "description": "",
+                "link": "",
                 "size": 3000
               },
               {
                 "name": "WooCommerce WP plugin",
+                "description": "",
+                "link": "",
                 "size": 1000
               },
               {
                 "name": "Kriptode",
+                "description": "",
+                "link": "",
                 "size": 400
               },
               {
                 "name": "Living Room of Satoshi",
+                "description": "",
+                "link": "",
                 "size": 800
               },
               {
                 "name": "Nanopos",
+                "description": "",
+                "link": "",
                 "size": 400
               }
             ]
@@ -675,10 +801,14 @@
             "children": [
               {
                 "name": "Satoshi's Place",
+                "description": "",
+                "link": "",
                 "size": 1000
               },
               {
                 "name": "Art of Lightning",
+                "description": "",
+                "link": "",
                 "size": 300
               }
             ]
@@ -688,14 +818,20 @@
             "children": [
               {
                 "name": "Yalls",
+                "description": "",
+                "link": "",
                 "size": 1074
               },
               {
                 "name": "Thunder Message",
+                "description": "",
+                "link": "",
                 "size": 650
               },
               {
                 "name": "WordPress Lightning Publisher",
+                "description": "",
+                "link": "",
                 "size": 400
               }
             ]
@@ -705,34 +841,49 @@
             "children": [
               {
                 "name": "Nanotip",
-                "size": 400
+                "description": "",
+                "link": "",
               },
               {
                 "name": "IFTT",
+                "description": "",
+                "link": "",
                 "size": 350
               },
               {
                 "name": "Lightning Jukebox",
+                "description": "",
+                "link": "",
                 "size": 1000
               },
               {
                 "name": "Pay Per Call",
+                "description": "",
+                "link": "",
                 "size": 250
               },
               {
                 "name": "Lightning Buddy",
+                "description": "",
+                "link": "",
                 "size": 400
               },
               {
                 "name": "Matreon",
+                "description": "",
+                "link": "",
                 "size": 500
               },
               {
                 "name": "Quote From Me",
+                "description": "",
+                "link": "",
                 "size": 300
               },
               {
                 "name": "In Tip Slack",
+                "description": "",
+                "link": "",
                 "size": 800
               }
             ]
