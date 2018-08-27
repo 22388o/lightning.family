@@ -1,894 +1,898 @@
 {
-    "name": "Lightning Family",
-    "children": [
-      {
-        "name": "Startups",
-        "children": [
-          {
-            "name": "Fulmo",
-            "description": "Open source company dedicated to research, development and consultancy for the Bitcoin Lightning Network.",
-            "link": "https://fulmo.org/",
-            "size": 1833
-          },
-          {
-            "name": "Bitlum",
-            "description": "Building applications on top of Lightning Network",
-            "link": "http://bitlum.io/",
-            "size": 1833
-          },
-          {
-            "name": "DiscoveryBlock",
-            "description": "Smart Spaceship to Navigate the Technology Universe",
-            "link": "https://discoveryblock.io/",
-            "size": 750
-          }
-        ]
-      },
-      {
-        "name": "Wallets",
-        "children": [
-          {
-            "name": "Hardware",
-            "children": [
-              {
-                "name": "LNHW",
-                "description": "Chainlab 2018 hackathon project for a Lightning Network hardware wallet",
-                "link": "https://github.com/hkjn/lnhw/blob/master/chainhack-slides.pdf",
-                "size": 450
-              }
-            ]
-          },
-          {
-            "name": "Web",
-            "children": [
-              {
-                "name": "HTLC",
-                "description": "Web Wallet for Lightning Network",
-                "link": "https://htlc.me/",
-                "size": 500
-              }
-            ]
-          },
-          {
-            "name": "Desktop",
-            "children": [
-              {
-                "name": "Zap",
-                "description": "Trustlessly send and receive bitcoin instantly with minimal fees via the Lightning Network",
-                "link": "http://zap.jackmallers.com/",
-                "size": 1000
-              }
-            ]
-          },
-          {
-            "name": "Mobile",
-            "children": [
-              {
-                "name": "Shango",
-                "description": "Mobile wallet for Android and iOS devices",
-                "link": "http://www.shangoapp.com/insider/",
-                "size": 350
-              },
-              {
-                "name": "Eclair",
-                "description": "Next generation, Lightning-ready Bitcoin wallet. It can be used as a regular Bitcoin wallet, and can also connect to the Lightning Network for cheap and instant payments",
-                "link": "https://github.com/ACINQ/eclair-wallet/",
-                "size": 1200
-              },
-              {
-                "name": "Bitcoin Lightning",
-                "description": "This app features a standalone SPV Bitcoin node with a fully functional built-in Lightning node",
-                "link": "http://lightning-wallet.com/",
-                "size": 500
-              },
-              {
-                "name": "Atom Lightning",
-                "description": "This app features a standalone SPV Bitcoin node with a fully functional built-in Lightning node.",
-                "link": "http://lightning-wallet.com/",
-                "size": 300
-              },
-              {
-                "name": "LigthningPeach",
-                "description": "Next generation, Lightning-ready Bitcoin wallet. It can be used as a regular Bitcoin wallet, and can also connect to the Lightning Network for cheap and instant payments",
-                "link": "https://github.com/ACINQ/eclair-wallet",
-                "size": 250
-              },
-              {
-                "name": "CoinOS",
-                "description": "Mobile-friendly point-of-sale app that merchants can use to accept Bitcoin payments",
-                "link": "https://coinos.io/",
-                "size": 250
-              },
-              {
-                "name": "Fulmo",
-                "description": "Minimalist c-lightning UI",
-                "link": "https://github.com/marzig76/fulmo",
-                "size": 120
-              },
-              {
-                "name": "Zap iOS",
-                "description": "Trustlessly send and receive bitcoin instantly with minimal fees via the Lightning Network",
-                "link": "http://zap.jackmallers.com/",
-                "size": 900
-              },
-              {
-                "name": "Swift Lightning",
-                "description": "Next generation, Lightning-ready Bitcoin wallet. It can be used as a regular Bitcoin wallet, and can also connect to the Lightning Network for cheap and instant payments",
-                "link": "https://www.swiftlightning.io/",
-                "size": 700
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Documents",
-        "children": [
-          {
-            "name": "LN Developers",
-            "description": "Building applications on top of Lightning Network",
-            "link": "http://bitlum.io/",
-            "size": 700
-          },
-          {
-            "name": "Learning",
-            "children": [
-              {
-                "name": "Medium Articles",
-                "children": [
-                  {
-                    "name": "Understanding LN using an Abacus",
-                    "description": "Simplified explanation of LN transactions using an analogy with abacus bead movements. By Roy Sheinfeld",
-                    "link": "https://medium.com/breez-technology/understanding-lightning-network-using-an-abacus-daad8dc4cf4b",
-                    "size": 700
-                  },
-                  {
-                    "name": "LN is the Future of Bitcoin",
-                    "description": "Overview of some bitcoin shortcomings and how LN may overcome them. By Roy Sheinfeld",
-                    "link": "https://medium.com/breez-technology/the-future-of-bitcoin-3187aefe2746",
-                    "size": 550
-                  },
-                  {
-                    "name": "Introducing Breez: a perfect LN card",
-                    "description": "Introduction to the Breez LN card, an initiative that will help Lightning Network to be widely adopted by users and businesses. By Roy Sheinfeld",
-                    "link": "https://medium.com/breez-technology/introducing-strike-a-simple-fast-and-safe-bitcoin-card-750ffa67df80",
-                    "size": 1000
-                  },
-                  {
-                    "name": "LN for non-technical learners",
-                    "description": "High-level overview of LN for non-technical readers. By Mohit Mamoria",
-                    "link": "https://hackernoon.com/lightning-network-explained-d4615c12ad09",
-                    "size": 1000
-                  },
-                  {
-                    "name": "Tutorial on LN node setup",
-                    "description": "Setting up a LN node in 30 minutes for Windows desktop users - only in the BTC testnet. By Jad Mubaslat",
-                    "link": "https://medium.com/@jadmubaslat/bitcoin-lightning-network-node-easy-setup-tutorial-for-windows-desktop-users-a-how-to-guide-9937b5a8a669",
-                    "size": 1000
-                  },
-                  {
-                    "name": "Don’t Buy Into the FUD",
-                    "description": "Refuting arguments against implementation of LN. By Roy Sheinfeld",
-                    "link": "https://medium.com/breez-technology/lightning-network-dont-buy-into-the-fud-236b05cb7f27",
-                    "size": 450
-                  }
-                ]
-              },
-              {
-                "name": "Wikis",
-                "children": [
-                  {
-                    "name": "Fulmo wiki",
-                    "description": "Wiki gathering information about Lightning Hackdays organized by the company Fulmo",
-                    "link": "https://wiki.fulmo.org/index.php?title=Lightning_Hackday_Wiki",
-                    "size": 400
-                  },
-                  {
-                    "name": "Wikiversity",
-                    "description": "A repository of teaching contents about LN, with articles, tutorials, videos, documentation",
-                    "link": "https://en.m.wikiversity.org/wiki/Lightning_Network",
-                    "size": 2000
-                  },
-                  {
-                    "name": "Bitcoin Wiki",
-                    "description": "The largest wiki around bitcoin, created in 2010 and maintained by the bitcon community",
-                    "link": "https://en.bitcoin.it/wiki/Main_Page",
-                    "size": 200
-                  },
-                  {
-                    "name": "Wikipedia",
-                    "description": "The original free online collaborative Encyclopedia",
-                    "link": "https://en.wikipedia.org/wiki/Main_Page",
-                    "size": 300
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Videos",
-            "children": [
-              {
-                "name": "WikiMedia Commons",
-                "children": [
-                  {
+  "name": "Lightning Family",
+  "children": [
+    {
+      "name": "Startups",
+      "children": [
+        {
+          "name": "Fulmo",
+          "description": "Open source company dedicated to research, development and consultancy for the Bitcoin Lightning Network.",
+          "link": "https://fulmo.org/",
+          "size": 1833
+        },
+        {
+          "name": "Bitlum",
+          "description": "Building applications on top of Lightning Network",
+          "link": "http://bitlum.io/",
+          "size": 1833
+        },
+        {
+          "name": "DiscoveryBlock",
+          "description": "Smart Spaceship to Navigate the Technology Universe",
+          "link": "https://discoveryblock.io/",
+          "size": 750
+        }
+      ]
+    },
+    {
+      "name": "Wallets",
+      "children": [
+        {
+          "name": "Hardware",
+          "children": [
+            {
+              "name": "LNHW",
+              "description": "Chainlab 2018 hackathon project for a Lightning Network hardware wallet",
+              "link": "https://github.com/hkjn/lnhw/blob/master/chainhack-slides.pdf",
+              "size": 450
+            }
+          ]
+        },
+        {
+          "name": "Web",
+          "children": [
+            {
+              "name": "HTLC",
+              "description": "Web Wallet for Lightning Network",
+              "link": "https://htlc.me/",
+              "size": 500
+            },
+            {
+              "name": "Discovery",
+              "description": "Web Wallet for Lightning Family",
+              "link": "https://wallet.lightning.family/",
+              "size": 350
+            }
+          ]
+        },
+        {
+          "name": "Desktop",
+          "children": [
+            {
+              "name": "Zap",
+              "description": "Trustlessly send and receive bitcoin instantly with minimal fees via the Lightning Network",
+              "link": "http://zap.jackmallers.com/",
+              "size": 1000
+            }
+          ]
+        },
+        {
+          "name": "Mobile",
+          "children": [
+            {
+              "name": "Shango",
+              "description": "Mobile wallet for Android and iOS devices",
+              "link": "http://www.shangoapp.com/insider/",
+              "size": 350
+            },
+            {
+              "name": "Eclair",
+              "description": "Next generation, Lightning-ready Bitcoin wallet. It can be used as a regular Bitcoin wallet, and can also connect to the Lightning Network for cheap and instant payments",
+              "link": "https://github.com/ACINQ/eclair-wallet/",
+              "size": 1200
+            },
+            {
+              "name": "Bitcoin Lightning",
+              "description": "This app features a standalone SPV Bitcoin node with a fully functional built-in Lightning node",
+              "link": "http://lightning-wallet.com/",
+              "size": 500
+            },
+            {
+              "name": "Atom Lightning",
+              "description": "This app features a standalone SPV Bitcoin node with a fully functional built-in Lightning node.",
+              "link": "http://lightning-wallet.com/",
+              "size": 300
+            },
+            {
+              "name": "LigthningPeach",
+              "description": "Next generation, Lightning-ready Bitcoin wallet. It can be used as a regular Bitcoin wallet, and can also connect to the Lightning Network for cheap and instant payments",
+              "link": "https://github.com/ACINQ/eclair-wallet",
+              "size": 250
+            },
+            {
+              "name": "CoinOS",
+              "description": "Mobile-friendly point-of-sale app that merchants can use to accept Bitcoin payments",
+              "link": "https://coinos.io/",
+              "size": 250
+            },
+            {
+              "name": "Fulmo",
+              "description": "Minimalist c-lightning UI",
+              "link": "https://github.com/marzig76/fulmo",
+              "size": 120
+            },
+            {
+              "name": "Zap iOS",
+              "description": "Trustlessly send and receive bitcoin instantly with minimal fees via the Lightning Network",
+              "link": "http://zap.jackmallers.com/",
+              "size": 900
+            },
+            {
+              "name": "Swift Lightning",
+              "description": "Next generation, Lightning-ready Bitcoin wallet. It can be used as a regular Bitcoin wallet, and can also connect to the Lightning Network for cheap and instant payments",
+              "link": "https://www.swiftlightning.io/",
+              "size": 700
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Documents",
+      "children": [
+        {
+          "name": "LN Developers",
+          "description": "Building applications on top of Lightning Network",
+          "link": "http://bitlum.io/",
+          "size": 700
+        },
+        {
+          "name": "Learning",
+          "children": [
+            {
+              "name": "Medium Articles",
+              "children": [
+                {
+                  "name": "Understanding LN using an Abacus",
+                  "description": "Simplified explanation of LN transactions using an analogy with abacus bead movements. By Roy Sheinfeld",
+                  "link": "https://medium.com/breez-technology/understanding-lightning-network-using-an-abacus-daad8dc4cf4b",
+                  "size": 700
+                },
+                {
+                  "name": "LN is the Future of Bitcoin",
+                  "description": "Overview of some bitcoin shortcomings and how LN may overcome them. By Roy Sheinfeld",
+                  "link": "https://medium.com/breez-technology/the-future-of-bitcoin-3187aefe2746",
+                  "size": 550
+                },
+                {
+                  "name": "Introducing Breez: a perfect LN card",
+                  "description": "Introduction to the Breez LN card, an initiative that will help Lightning Network to be widely adopted by users and businesses. By Roy Sheinfeld",
+                  "link": "https://medium.com/breez-technology/introducing-strike-a-simple-fast-and-safe-bitcoin-card-750ffa67df80",
+                  "size": 1000
+                },
+                {
+                  "name": "LN for non-technical learners",
+                  "description": "High-level overview of LN for non-technical readers. By Mohit Mamoria",
+                  "link": "https://hackernoon.com/lightning-network-explained-d4615c12ad09",
+                  "size": 1000
+                },
+                {
+                  "name": "Tutorial on LN node setup",
+                  "description": "Setting up a LN node in 30 minutes for Windows desktop users - only in the BTC testnet. By Jad Mubaslat",
+                  "link": "https://medium.com/@jadmubaslat/bitcoin-lightning-network-node-easy-setup-tutorial-for-windows-desktop-users-a-how-to-guide-9937b5a8a669",
+                  "size": 1000
+                },
+                {
+                  "name": "Don’t Buy Into the FUD",
+                  "description": "Refuting arguments against implementation of LN. By Roy Sheinfeld",
+                  "link": "https://medium.com/breez-technology/lightning-network-dont-buy-into-the-fud-236b05cb7f27",
+                  "size": 450
+                }
+              ]
+            },
+            {
+              "name": "Wikis",
+              "children": [
+                {
+                  "name": "Fulmo wiki",
+                  "description": "Wiki gathering information about Lightning Hackdays organized by the company Fulmo",
+                  "link": "https://wiki.fulmo.org/index.php?title=Lightning_Hackday_Wiki",
+                  "size": 400
+                },
+                {
+                  "name": "Wikiversity",
+                  "description": "A repository of teaching contents about LN, with articles, tutorials, videos, documentation",
+                  "link": "https://en.m.wikiversity.org/wiki/Lightning_Network",
+                  "size": 2000
+                },
+                {
+                  "name": "Bitcoin Wiki",
+                  "description": "The largest wiki around bitcoin, created in 2010 and maintained by the bitcon community",
+                  "link": "https://en.bitcoin.it/wiki/Main_Page",
+                  "size": 200
+                },
+                {
+                  "name": "Wikipedia",
+                  "description": "The original free online collaborative Encyclopedia",
+                  "link": "https://en.wikipedia.org/wiki/Main_Page",
+                  "size": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Videos",
+          "children": [
+            {
+              "name": "WikiMedia Commons",
+              "children": [
+                {
                   "name": "Lightning Network Explained",
                   "description": "A illustrative video showing of the basics of LN transactions between three nodes, August 2018. By Kjerish",
                   "link": "https://commons.wikimedia.org/wiki/File:Lightning_Network_Explained.webm",
                   "size": 400
-                  },
-                  {
+                },
+                {
                   "name": "Buying Coffee at Lightning Speed",
                   "description": "A 30min speech by Christian Decker explaining the principles of LN, using the practical example of purchasing a coffee through an off-chain transaction ",
                   "link": "https://commons.wikimedia.org/wiki/File:Buying_Coffee_at_Lightning_Speed_by_Dr._Christian_Decker.webm",
                   "size": 400
-                  }
-               ] 
-              },
-              {
-                "name": "Lightning Makers",
-                "children": [
-                  {
+                }
+              ]
+            },
+            {
+              "name": "Lightning Makers",
+              "children": [
+                {
                   "name": "Videocall 1",
                   "description": "Recorded video of the 1st Lightning Makers group members videocall",
                   "link": "https://www.youtube.com/watch?v=Vtxi3hljXTY",
                   "size": 400
-                  },
-                  {
+                },
+                {
                   "name": "Videocall 2",
                   "description": "Recorded video of the 2nd Lightning Makers group members videocall",
                   "link": "https://www.youtube.com/watch?v=TBujEOy-gFQ",
                   "size": 400
-                  }
-                ]                  
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Funding",
-        "children": [
-          {
-            "name": "VC",
-            "children": [
-              {
-                "name": "a16z",
-                "description": "Silicon Valley based VC firm Andreessen Horowitz, raised over $7B to date",
-                "link": "https://a16z.com/",
-                "size": 2105
-              },
-              {
-                "name": "Steve Lee",
-                "description": "San Francisco based BA getting active in LN, former product director at Google and willing to contribute to LN ecosystem funding",
-                "link": "",
-                "size": 300
-              }
-            ]
-          },
-          {
-            "name": "Crowdfunding",
-            "size": 500
-          }
-        ]
-      },
-      {
-        "name": "Consultants",
-        "children": [
-          {
-            "name": "Hardware",
-            "description": "",
-            "link": "",
-            "size": 1616
-          },
-          {
-            "name": "software",
-            "children": [
-              {
-                "name": "Front-end",
-                "description": "",
-                "link": "",
-                "size": 593
-              },
-              {
-                "name": "Back-end",
-                "description": "",
-                "link": "",
-                "size": 593
-              }
-            ]
-          },
-          {
-            "name": "Business",
-            "description": "",
-            "link": "",
-            "size": 1616
-          }
-        ]
-      },
-      {
-        "name": "Events",
-        "children": [
-          {
-            "name": "Meet-ups",
-            "children": [
-              {
-                "name": "Switzerland",
-                "children": [
-                  {
-                    "name": "Scaling Bitcoin with Lightning - Dr. Christian Decker",
-                    "description": "",
-                    "link": "",
-                    "size": 700
-                  }
-                ]
-              },
-              {
-                "name": "Asmterdam",
-                "children": [
-                  {
-                    "name": "Tech Tuesday: Lightning Network",
-                    "description": "",
-                    "link": "",
-                    "size": 300
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Hackathons",
-            "children": [
-              {
-                "name": "#LightningHackDay",
-                "description": "Bitcoin hackathon organized by Fulmo to learn share and buidl.",
-                "link": "https://lightninghackday.fulmo.org/",
-                "size": 700
-              },
-              {
-                "name": "Madrid Lightning Network",
-                "description": "Lightning Network & RSK hackathon organized by DiscoveryBlock to overcome Lightning Network & RSK challenges.",
-                "link": "https://madridlightning.network//",
-                "size": 700
-              },
-              {
-                "name": "Cripto Chapa",
-                "size": 300
-              }
-            ]
-          },
-          {
-            "name": "Conferences",
-            "children": [
-              {
-                "name": "#LightningHackDay",
-                "description": "Bitcoin conference organized by Fulmo to learn share and buidl.",
-                "link": "https://lightninghackday.fulmo.org/",
-                "size": 1200
-              },
-              {
-                "name": "Madrid Lightning Network",
-                "description": "Lightning Network & RSK conference organized by DiscoveryBlock to learn and research about Bitcoin second layer protocols.",
-                "link": "https://madridlightning.network//",
-                "size": 700
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Regulation",
-        "children": [
-          {
-            "name": "Guides",
-            "size": 500
-          }
-        ]
-      },
-      {
-        "name": "Projects",
-        "children": [
-          {
-            "name": "Stores",
-            "children": [
-              {
-                "name": "Moonstuff",
-                "description": "A lightning network powered bitcoin novelty store here to help prep you for moon",
-                "link": "https://www.moonstuff.co/",
-                "size": 400
-              },
-              {
-                "name": "C+C Remeras",
-                "description": "Online t-shirt store with some funny crypto-designs, accepting payments through LN",
-                "link": "https://cmascremeras.store/",
-                "size": 300
-              },
-              {
-                "name": "Bitcoin Art",
-                "description": "",
-                "link": "",
-                "size": 200
-              },
-              {
-                "name": "Joltfun",
-                "description": "Games store accepting payments through LN. 1,000+ games from Steam, Origin, Uplay, Battle.net, Xbox Live, Rockstar",
-                "link": "https://joltfun.com/",
-                "size": 200
-              },
-              {
-                "name": "Bitgild",
-                "description": "One of the largest European gold and silver internet shops. You can buy gold and silver with Ethereum, Bitcoin/LN, Litecoin, Ripple and more",
-                "link": "https://www.bitgild.com/",
-                "size": 400
-              },
-              {
-                "name": "Cryptoid Shop",
-                "description": "https://www.cryptoidshop.com/",
-                "link": "Online t-shirt store with crypto-designs, accepting payments through LN",
-                "size": 180
-              },
-              {
-                "name": "YYBazaar",
-                "description": "Online apparel store accepting payments through LN ",
-                "link": "https://yybazaar.com/",
-                "size": 300
-              },
-              {
-                "name": "Crypto Cloaks",
-                "description": "Storing devices for keeping your hardwallets and crypto assets hidden and protected",
-                "link": "https://thecryptocloak.com/",
-                "size": 500
-              },
-              {
-                "name": "Eichenhain",
-                "description": "We help you find good things for a good life. We eat healthy, we live healthy, we exercise, we take care of the environment and of society",
-                "link": "https://www.eichenhain.com/en/jerky-co/ochsenriegel",
-                "size": 75
-              },
-              {
-                "name": "Coin Cards",
-                "description": "Coincards.ca offers a huge selection of both Electronic and Physical Gift Cards from Hundreds of Canadian Retailers, Including all the Top Brands",
-                "link": "https://coincards.ca/",
-                "size": 350
-              },
-              {
-                "name": "Never Fiat",
-                "description": "Crypto marketplace selling apparel and electronics",
-                "link": "https://neverfiat.com/",
-                "size": 300
-              },
-              {
-                "name": "Bit Launch",
-                "description": "Pay for cloud servers with Bitcoin, Ethereum, Ripple, Dash, Litecoin and many others",
-                "link": "https://bitlaunch.io/",
-                "size": 200
-              },
-              {
-                "name": "Coin Mall",
-                "description": "Crypto marketplace for digital products",
-                "link": "https://www.coinmall.com/",
-                "size": 100
-              },
-              {
-                "name": "Domorder",
-                "description": "Online store for hosting, website development and domain services",
-                "link": "https://www.domorder.com/",
-                "size": 200
-              },
-              {
-                "name": "Hipp Tee",
-                "description": "Online store for t-shirts and hoodies, accepting LN for payment",
-                "link": "https://hipptee.com/",
-                "size": 150
-              },
-              {
-                "name": "Ligthning Farm",
-                "description": "We're on a mission to build an open source, upgradeable and economic portable Bitcoin full node connected to Lightning Network where every user can access and interact easily",
-                "link": "https://hipptee.com/",
-                "size": 250
-              },
-              {
-                "name": "Bitcoin Shirt",
-                "description": "We specialize in producing high quality and unique Bitcoin merchandise including T-Shirts, Phone Cases, Mugs, Hats, Posters and more",
-                "link": "https://bitcoinshirt.co/",
-                "size": 800
-              },
-              {
-                "name": "Wears My Liberty",
-                "description": "Online store. Liberty Shirts, Hats, Hoodies & More, offering discounts for Bitcoin payments",
-                "link": "https://wearsmyliberty.com/",
-                "size": 600
-              },
-              {
-                "name": "LNDlife",
-                "description": "LNDlife is committed to helping grow and test the lightning network by providing its products to the growing community of nodes that transact on it. ",
-                "link": "https://lndlife.com/",
-                "size": 800
-              },
-              {
-                "name": "The Kashbash",
-                "description": "A dynamic and laid-back coworking space promoting blockchain related events",
-                "link": "https://www.thekasbahhub.com/",
-                "size": 300
-              },
-              {
-                "name": "BTC Echo",
-                "description": "Books and merchandise store with some items related with blockchain and bitcoin",
-                "link": "",
-                "size": 100
-              },
-              {
-                "name": "Gully Flip",
-                "description": "Your One Stop Shop For Gaming, Cosplay, Collectibles And Much More, accepting crytocurrency",
-                "link": "https://gullyflip.com/",
-                "size": 280
-              },
-              {
-                "name": "Peer Name",
-                "description": "Blockchain-Based Domain Names Registrar, accepting payment by LN",
-                "link": "https://peername.com/",
-                "size": 600
-              },
-              {
-                "name": "Quinsolo",
-                "description": "Onliine store for cryptocurrency merchandise, accepting cryto payment",
-                "link": "https://quinsolo.com/",
-                "size": 75
-              },
-              {
-                "name": "Tor Guard",
-                "description": "",
-                "link": "",
-                "size": 150
-              },
-              {
-                "name": "Coingate",
-                "description": "",
-                "link": "",
-                "size": 150
-              },
-              {
-                "name": "LN SMS",
-                "description": "",
-                "link": "",
-                "size": 350
-              },
-              {
-                "name": "The Vault",
-                "description": "",
-                "link": "",
-                "size": 220
-              },
-              {
-                "name": "Bitrefill",
-                "description": "",
-                "link": "",
-                "size": 900
-              },
-              {
-                "name": "StarBlocks",
-                "description": "",
-                "link": "",
-                "size": 500
-              },
-              {
-                "name": "Crypto Shopper",
-                "description": "",
-                "link": "",
-                "size": 300
-              },
-              {
-                "name": "Filebazar",
-                "description": "",
-                "link": "",
-                "size": 800
-              },
-              {
-                "name": "LNCast",
-                "description": "",
-                "link": "",
-                "size": 150
-              }
-            ]
-          },
-          {
-            "name": "Games",
-            "children": [
-              {
-                "name": "Satoshi's Games",
-                "description": "",
-                "link": "",
-                "size": 750
-              },
-              {
-                "name": "Moneni",
-                "description": "",
-                "link": "",
-                "size": 300
-              },
-              {
-                "name": "The Lightning Spin",
-                "description": "",
-                "link": "",
-                "size": 300
-              },
-              {
-                "name": "Unblurrer",
-                "description": "",
-                "link": "",
-                "size": 100
-              },
-              {
-                "name": "Microbet",
-                "description": "",
-                "link": "",
-                "size": 500
-              },
-              {
-                "name": "In Dice",
-                "description": "",
-                "link": "",
-                "size": 200
-              },
-              {
-                "name": "Lightning Gem",
-                "description": "",
-                "link": "",
-                "size": 500
-              },
-              {
-                "name": "In Plays",
-                "description": "",
-                "link": "",
-                "size": 200
-              },
-              {
-                "name": "Lightning Roulette",
-                "description": "",
-                "link": "",
-                "size": 1000
-              },
-              {
-                "name": "Arcade Money",
-                "description": "",
-                "link": "",
-                "size": 400
-              }
-            ]
-          },
-          {
-            "name": "Hardware Nodes",
-            "children": [
-              {
-                "name": "RaspiBolt",
-                "description": "",
-                "link": "",
-                "size": 1000
-              },
-              {
-                "name": "RaspiBlitz",
-                "description": "",
-                "link": "",
-                "size": 2500
-              },
-              {
-                "name": "Trueno",
-                "description": "",
-                "link": "",
-                "size": 200
-              }
-            ]
-          },
-          {
-            "name": "Faucets",
-            "children": [
-              {
-                "name": "Appspot",
-                "description": "",
-                "link": "",
-                "size": 100
-              },
-              {
-                "name": "Backend Hmaburg",
-                "description": "",
-                "link": "",
-                "size": 200
-              },
-              {
-                "name": "Coinfaucet",
-                "description": "",
-                "link": "",
-                "size": 350
-              },
-              {
-                "name": "Kuttler",
-                "description": "",
-                "link": "",
-                "size": 180
-              }
-            ]
-          },
-          {
-            "name": "Exchanges",
-            "children": [
-              {
-                "name": "Submarine Swaps",
-                "description": "",
-                "link": "",
-                "size": 1300
-              },
-              {
-                "name": "Zig Zag",
-                "description": "",
-                "link": "",
-                "size": 500
-              },
-              {
-                "name": "Bitbargain",
-                "description": "",
-                "link": "",
-                "size": 150
-              },
-              {
-                "name": "Bitgild",
-                "description": "",
-                "link": "",
-                "size": 400
-              },
-              {
-                "name": "Lightning Conductor",
-                "description": "",
-                "link": "",
-                "size": 600
-              },
-              {
-                "name": "Mercuriex",
-                "description": "",
-                "link": "",
-                "size": 400
-              },
-              {
-                "name": "Bitcoin Venezuela",
-                "description": "",
-                "link": "",
-                "size": 800
-              }
-            ]
-          },
-          {
-            "name": "eCommerce",
-            "children": [
-              {
-                "name": "BTCPay Server",
-                "description": "",
-                "link": "",
-                "size": 5000
-              },
-              {
-                "name": "lIGHTNING cHARGE",
-                "description": "",
-                "link": "",
-                "size": 3000
-              },
-              {
-                "name": "WooCommerce WP plugin",
-                "description": "",
-                "link": "",
-                "size": 1000
-              },
-              {
-                "name": "Kriptode",
-                "description": "",
-                "link": "",
-                "size": 400
-              },
-              {
-                "name": "Living Room of Satoshi",
-                "description": "",
-                "link": "",
-                "size": 800
-              },
-              {
-                "name": "Nanopos",
-                "description": "",
-                "link": "",
-                "size": 400
-              }
-            ]
-          },
-          {
-            "name": "Advertising",
-            "children": [
-              {
-                "name": "Satoshi's Place",
-                "description": "",
-                "link": "",
-                "size": 1000
-              },
-              {
-                "name": "Art of Lightning",
-                "description": "",
-                "link": "",
-                "size": 300
-              }
-            ]
-          },
-          {
-            "name": "Blogs",
-            "children": [
-              {
-                "name": "Yalls",
-                "description": "",
-                "link": "",
-                "size": 1074
-              },
-              {
-                "name": "Thunder Message",
-                "description": "",
-                "link": "",
-                "size": 650
-              },
-              {
-                "name": "WordPress Lightning Publisher",
-                "description": "",
-                "link": "",
-                "size": 400
-              }
-            ]
-          },
-          {
-            "name": "Utils",
-            "children": [
-              {
-                "name": "Nanotip",
-                "description": "",
-                "link": "",
-              },
-              {
-                "name": "IFTT",
-                "description": "",
-                "link": "",
-                "size": 350
-              },
-              {
-                "name": "Lightning Jukebox",
-                "description": "",
-                "link": "",
-                "size": 1000
-              },
-              {
-                "name": "Pay Per Call",
-                "description": "",
-                "link": "",
-                "size": 250
-              },
-              {
-                "name": "Lightning Buddy",
-                "description": "",
-                "link": "",
-                "size": 400
-              },
-              {
-                "name": "Matreon",
-                "description": "",
-                "link": "",
-                "size": 500
-              },
-              {
-                "name": "Quote From Me",
-                "description": "",
-                "link": "",
-                "size": 300
-              },
-              {
-                "name": "In Tip Slack",
-                "description": "",
-                "link": "",
-                "size": 800
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Funding",
+      "children": [
+        {
+          "name": "VC",
+          "children": [
+            {
+              "name": "a16z",
+              "description": "Silicon Valley based VC firm Andreessen Horowitz, raised over $7B to date",
+              "link": "https://a16z.com/",
+              "size": 2105
+            },
+            {
+              "name": "Steve Lee",
+              "description": "San Francisco based BA getting active in LN, former product director at Google and willing to contribute to LN ecosystem funding",
+              "link": "",
+              "size": 300
+            }
+          ]
+        },
+        {
+          "name": "Crowdfunding",
+          "size": 500
+        }
+      ]
+    },
+    {
+      "name": "Consultants",
+      "children": [
+        {
+          "name": "Hardware",
+          "description": "",
+          "link": "",
+          "size": 1616
+        },
+        {
+          "name": "software",
+          "children": [
+            {
+              "name": "Front-end",
+              "description": "",
+              "link": "",
+              "size": 593
+            },
+            {
+              "name": "Back-end",
+              "description": "",
+              "link": "",
+              "size": 593
+            }
+          ]
+        },
+        {
+          "name": "Business",
+          "description": "",
+          "link": "",
+          "size": 1616
+        }
+      ]
+    },
+    {
+      "name": "Events",
+      "children": [
+        {
+          "name": "Meet-ups",
+          "children": [
+            {
+              "name": "Switzerland",
+              "children": [
+                {
+                  "name": "Scaling Bitcoin with Lightning - Dr. Christian Decker",
+                  "description": "",
+                  "link": "",
+                  "size": 700
+                }
+              ]
+            },
+            {
+              "name": "Asmterdam",
+              "children": [
+                {
+                  "name": "Tech Tuesday: Lightning Network",
+                  "description": "",
+                  "link": "",
+                  "size": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hackathons",
+          "children": [
+            {
+              "name": "#LightningHackDay",
+              "description": "Bitcoin hackathon organized by Fulmo to learn share and buidl.",
+              "link": "https://lightninghackday.fulmo.org/",
+              "size": 700
+            },
+            {
+              "name": "Madrid Lightning Network",
+              "description": "Lightning Network & RSK hackathon organized by DiscoveryBlock to overcome Lightning Network & RSK challenges.",
+              "link": "https://madridlightning.network//",
+              "size": 700
+            },
+            {
+              "name": "Cripto Chapa",
+              "size": 300
+            }
+          ]
+        },
+        {
+          "name": "Conferences",
+          "children": [
+            {
+              "name": "#LightningHackDay",
+              "description": "Bitcoin conference organized by Fulmo to learn share and buidl.",
+              "link": "https://lightninghackday.fulmo.org/",
+              "size": 1200
+            },
+            {
+              "name": "Madrid Lightning Network",
+              "description": "Lightning Network & RSK conference organized by DiscoveryBlock to learn and research about Bitcoin second layer protocols.",
+              "link": "https://madridlightning.network//",
+              "size": 700
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Regulation",
+      "children": [
+        {
+          "name": "Guides",
+          "size": 500
+        }
+      ]
+    },
+    {
+      "name": "Projects",
+      "children": [
+        {
+          "name": "Stores",
+          "children": [
+            {
+              "name": "Clothing",
+              "children": [
+                {
+                  "name": "Moonstuff",
+                  "description": "A lightning network powered bitcoin novelty store here to help prep you for moon",
+                  "link": "https://www.moonstuff.co/",
+                  "size": 400
+                },
+                {
+                  "name": "C+C Remeras",
+                  "description": "Online t-shirt store with some funny crypto-designs, accepting payments through LN",
+                  "link": "https://cmascremeras.store/",
+                  "size": 300
+                },
+                {
+                  "name": "Bitcoin Art",
+                  "description": "",
+                  "link": "",
+                  "size": 200
+                },
+                {
+                  "name": "Cryptoid Shop",
+                  "description": "https://www.cryptoidshop.com/",
+                  "link": "Online t-shirt store with crypto-designs, accepting payments through LN",
+                  "size": 180
+                },
+                {
+                  "name": "YYBazaar",
+                  "description": "Online apparel store accepting payments through LN ",
+                  "link": "https://yybazaar.com/",
+                  "size": 300
+                },
+                {
+                  "name": "Hipp Tee",
+                  "description": "Online store for t-shirts and hoodies, accepting LN for payment",
+                  "link": "https://hipptee.com/",
+                  "size": 150
+                },
+                {
+                  "name": "Bitcoin Shirt",
+                  "description": "We specialize in producing high quality and unique Bitcoin merchandise including T-Shirts, Phone Cases, Mugs, Hats, Posters and more",
+                  "link": "https://bitcoinshirt.co/",
+                  "size": 800
+                },
+                {
+                  "name": "Wears My Liberty",
+                  "description": "Online store. Liberty Shirts, Hats, Hoodies & More, offering discounts for Bitcoin payments",
+                  "link": "https://wearsmyliberty.com/",
+                  "size": 600
+                },
+                {
+                  "name": "BTC Echo",
+                  "description": "Books and merchandise store with some items related with blockchain and bitcoin",
+                  "link": "",
+                  "size": 100
+                },
+                {
+                  "name": "Gully Flip",
+                  "description": "Your One Stop Shop For Gaming, Cosplay, Collectibles And Much More, accepting crytocurrency",
+                  "link": "https://gullyflip.com/",
+                  "size": 280
+                },
+                {
+                  "name": "Quinsolo",
+                  "description": "Onliine store for cryptocurrency merchandise, accepting cryto payment",
+                  "link": "https://quinsolo.com/",
+                  "size": 75
+                }
+              ]
+            },
+            {
+              "name": "Electronics",
+              "children": [
+                {
+                  "name": "Crypto Cloaks",
+                  "description": "Storing devices for keeping your hardwallets and crypto assets hidden and protected",
+                  "link": "https://thecryptocloak.com/",
+                  "size": 500
+                },
+                {
+                  "name": "Coin Cards",
+                  "description": "Coincards.ca offers a huge selection of both Electronic and Physical Gift Cards from Hundreds of Canadian Retailers, Including all the Top Brands",
+                  "link": "https://coincards.ca/",
+                  "size": 350
+                },
+                {
+                  "name": "Never Fiat",
+                  "description": "Crypto marketplace selling apparel and electronics",
+                  "link": "https://neverfiat.com/",
+                  "size": 300
+                },
+                {
+                  "name": "Ligthning Farm",
+                  "description": "We're on a mission to build an open source, upgradeable and economic portable Bitcoin full node connected to Lightning Network where every user can access and interact easily",
+                  "link": "https://hipptee.com/",
+                  "size": 250
+                }
+              ]
+            },
+            {
+              "name": "Services",
+              "children": [
+                {
+                  "name": "Joltfun",
+                  "description": "Games store accepting payments through LN. 1,000+ games from Steam, Origin, Uplay, Battle.net, Xbox Live, Rockstar",
+                  "link": "https://joltfun.com/",
+                  "size": 200
+                },
+                {
+                  "name": "Bitgild",
+                  "description": "One of the largest European gold and silver internet shops. You can buy gold and silver with Ethereum, Bitcoin/LN, Litecoin, Ripple and more",
+                  "link": "https://www.bitgild.com/",
+                  "size": 400
+                },
+                {
+                  "name": "Crypto Cloaks",
+                  "description": "Storing devices for keeping your hardwallets and crypto assets hidden and protected",
+                  "link": "https://thecryptocloak.com/",
+                  "size": 500
+                },
+                {
+                  "name": "Eichenhain",
+                  "description": "We help you find good things for a good life. We eat healthy, we live healthy, we exercise, we take care of the environment and of society",
+                  "link": "https://www.eichenhain.com/en/jerky-co/ochsenriegel",
+                  "size": 75
+                },
+                {
+                  "name": "Coin Cards",
+                  "description": "Coincards.ca offers a huge selection of both Electronic and Physical Gift Cards from Hundreds of Canadian Retailers, Including all the Top Brands",
+                  "link": "https://coincards.ca/",
+                  "size": 350
+                },
+                {
+                  "name": "Bit Launch",
+                  "description": "Pay for cloud servers with Bitcoin, Ethereum, Ripple, Dash, Litecoin and many others",
+                  "link": "https://bitlaunch.io/",
+                  "size": 200
+                },
+                {
+                  "name": "Coin Mall",
+                  "description": "Crypto marketplace for digital products",
+                  "link": "https://www.coinmall.com/",
+                  "size": 100
+                },
+                {
+                  "name": "Domorder",
+                  "description": "Online store for hosting, website development and domain services",
+                  "link": "https://www.domorder.com/",
+                  "size": 200
+                },
+                {
+                  "name": "The Kashbash",
+                  "description": "A dynamic and laid-back coworking space promoting blockchain related events",
+                  "link": "https://www.thekasbahhub.com/",
+                  "size": 300
+                },
+                {
+                  "name": "Peer Name",
+                  "description": "Blockchain-Based Domain Names Registrar, accepting payment by LN",
+                  "link": "https://peername.com/",
+                  "size": 600
+                },
+                {
+                  "name": "Tor Guard",
+                  "description": "",
+                  "link": "",
+                  "size": 150
+                },
+                {
+                  "name": "Coingate",
+                  "description": "",
+                  "link": "",
+                  "size": 150
+                },
+                {
+                  "name": "LN SMS",
+                  "description": "",
+                  "link": "",
+                  "size": 350
+                },
+                {
+                  "name": "The Vault",
+                  "description": "",
+                  "link": "",
+                  "size": 220
+                },
+                {
+                  "name": "Bitrefill",
+                  "description": "",
+                  "link": "",
+                  "size": 900
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Games",
+          "children": [
+            {
+              "name": "Satoshi's Games",
+              "description": "",
+              "link": "",
+              "size": 750
+            },
+            {
+              "name": "Moneni",
+              "description": "",
+              "link": "",
+              "size": 300
+            },
+            {
+              "name": "The Lightning Spin",
+              "description": "",
+              "link": "",
+              "size": 300
+            },
+            {
+              "name": "Unblurrer",
+              "description": "",
+              "link": "",
+              "size": 100
+            },
+            {
+              "name": "Microbet",
+              "description": "",
+              "link": "",
+              "size": 500
+            },
+            {
+              "name": "In Dice",
+              "description": "",
+              "link": "",
+              "size": 200
+            },
+            {
+              "name": "Lightning Gem",
+              "description": "",
+              "link": "",
+              "size": 500
+            },
+            {
+              "name": "In Plays",
+              "description": "",
+              "link": "",
+              "size": 200
+            },
+            {
+              "name": "Lightning Roulette",
+              "description": "",
+              "link": "",
+              "size": 1000
+            },
+            {
+              "name": "Arcade Money",
+              "description": "",
+              "link": "",
+              "size": 400
+            }
+          ]
+        },
+        {
+          "name": "Hardware Nodes",
+          "children": [
+            {
+              "name": "RaspiBolt",
+              "description": "",
+              "link": "",
+              "size": 1000
+            },
+            {
+              "name": "RaspiBlitz",
+              "description": "",
+              "link": "",
+              "size": 2500
+            },
+            {
+              "name": "Trueno",
+              "description": "",
+              "link": "",
+              "size": 200
+            }
+          ]
+        },
+        {
+          "name": "Faucets",
+          "children": [
+            {
+              "name": "Appspot",
+              "description": "",
+              "link": "",
+              "size": 100
+            },
+            {
+              "name": "Backend Hmaburg",
+              "description": "",
+              "link": "",
+              "size": 200
+            },
+            {
+              "name": "Coinfaucet",
+              "description": "",
+              "link": "",
+              "size": 350
+            },
+            {
+              "name": "Kuttler",
+              "description": "",
+              "link": "",
+              "size": 180
+            }
+          ]
+        },
+        {
+          "name": "Exchanges",
+          "children": [
+            {
+              "name": "Submarine Swaps",
+              "description": "",
+              "link": "",
+              "size": 1300
+            },
+            {
+              "name": "Zig Zag",
+              "description": "",
+              "link": "",
+              "size": 500
+            },
+            {
+              "name": "Bitbargain",
+              "description": "",
+              "link": "",
+              "size": 150
+            },
+            {
+              "name": "Bitgild",
+              "description": "",
+              "link": "",
+              "size": 400
+            },
+            {
+              "name": "Lightning Conductor",
+              "description": "",
+              "link": "",
+              "size": 600
+            },
+            {
+              "name": "Mercuriex",
+              "description": "",
+              "link": "",
+              "size": 400
+            },
+            {
+              "name": "Bitcoin Venezuela",
+              "description": "",
+              "link": "",
+              "size": 800
+            }
+          ]
+        },
+        {
+          "name": "eCommerce",
+          "children": [
+            {
+              "name": "BTCPay Server",
+              "description": "",
+              "link": "",
+              "size": 5000
+            },
+            {
+              "name": "lIGHTNING cHARGE",
+              "description": "",
+              "link": "",
+              "size": 3000
+            },
+            {
+              "name": "WooCommerce WP plugin",
+              "description": "",
+              "link": "",
+              "size": 1000
+            },
+            {
+              "name": "Kriptode",
+              "description": "",
+              "link": "",
+              "size": 400
+            },
+            {
+              "name": "Living Room of Satoshi",
+              "description": "",
+              "link": "",
+              "size": 800
+            },
+            {
+              "name": "Nanopos",
+              "description": "",
+              "link": "",
+              "size": 400
+            }
+          ]
+        },
+        {
+          "name": "Advertising",
+          "children": [
+            {
+              "name": "Satoshi's Place",
+              "description": "",
+              "link": "",
+              "size": 1000
+            },
+            {
+              "name": "Art of Lightning",
+              "description": "",
+              "link": "",
+              "size": 300
+            }
+          ]
+        },
+        {
+          "name": "Blogs",
+          "children": [
+            {
+              "name": "Yalls",
+              "description": "",
+              "link": "",
+              "size": 1074
+            },
+            {
+              "name": "Thunder Message",
+              "description": "",
+              "link": "",
+              "size": 650
+            },
+            {
+              "name": "WordPress Lightning Publisher",
+              "description": "",
+              "link": "",
+              "size": 400
+            }
+          ]
+        },
+        {
+          "name": "Utils",
+          "children": [
+            {
+              "name": "Nanotip",
+              "description": "",
+              "link": "",
+              "size": 350
+            },
+            {
+              "name": "IFTT",
+              "description": "",
+              "link": "",
+              "size": 350
+            },
+            {
+              "name": "Lightning Jukebox",
+              "description": "",
+              "link": "",
+              "size": 1000
+            },
+            {
+              "name": "Pay Per Call",
+              "description": "",
+              "link": "",
+              "size": 250
+            },
+            {
+              "name": "Lightning Buddy",
+              "description": "",
+              "link": "",
+              "size": 400
+            },
+            {
+              "name": "Matreon",
+              "description": "",
+              "link": "",
+              "size": 500
+            },
+            {
+              "name": "Quote From Me",
+              "description": "",
+              "link": "",
+              "size": 300
+            },
+            {
+              "name": "In Tip Slack",
+              "description": "",
+              "link": "",
+              "size": 800
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
