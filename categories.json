@@ -122,6 +122,12 @@
               "description": "Next generation, Lightning-ready Bitcoin wallet. It can be used as a regular Bitcoin wallet, and can also connect to the Lightning Network for cheap and instant payments",
               "link": "https://www.swiftlightning.io/",
               "size": 700
+            },
+            {
+              "name": "Bit Box",
+              "description": "The only hardware wallet that's Swiss engineered to secure your independence in the cryptocurrency frontier.",
+              "link": "https://shiftcrypto.ch/",
+              "size": 400
             }
           ]
         }
