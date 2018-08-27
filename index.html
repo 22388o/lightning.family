@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <head>
     <title>Lightning Family - Search intuitively</title>
     <meta name="og:description" content="Lightning Network digital resources map">
@@ -13,104 +14,188 @@
     <meta charset="utf-8">
     <link rel="icon" href="/icons/icon.png">
     <link rel="stylesheet" href="/css/main.css">
+    <link href="/css/jquery-ui.min.css" rel="stylesheet">
+    <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 
 </head>
-<body>
-<a href="https://github.com/Lightning-Family/lightning.family"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub" title="Fork me on GitHub"></a>
-<a href="https://github.com/Lightning-Family/lightning.family/tree/master/Additions"><img style="position: absolute; top: 0; left: 0; border: 0; height: 150px; width: 150px; padding: 10px;" src="/icons/addproject.png" alt="Add your Lightning Element" title="Add your Lightning Element"></a>
 
-<center>
-<svg width="750" height="750"></svg>
-</center>
+<body>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <a href="https://github.com/Lightning-Family/lightning.family">
+        <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"
+            alt="Fork me on GitHub" title="Fork me on GitHub">
+    </a>
+    <a href="https://github.com/Lightning-Family/lightning.family/tree/master/Additions">
+        <img style="position: absolute; top: 0; left: 0; border: 0; height: 150px; width: 150px; padding: 10px;" src="/icons/addproject.png"
+            alt="Add your Lightning Element" title="Add your Lightning Element">
+    </a>
+    <div class="foo">
+        <span class="letter" data-letter="L">LIGHTNING</span>
+        <span class="letter" data-letter="F">FAMILY</span>
+    </div>
+
+    <div class="search-form">
+        <form style="margin-right: 200px;">
+            <input type="text" id="autocomplete" placeholder="Type to Search...">
+            <button></button>
+        </form>
+        <!--div class="share-button">
+                <input class="toggle-input" id="toggle-input" type="checkbox" />
+                <label for="toggle-input" class="toggle"></label>
+                <ul class="network-list">
+                    <li class="twitter">
+                        <a href="#">Share on Twitter</a>
+                    </li>
+                    <li class="facebook">
+                        <a href="#">Share on Facebook</a>
+                    </li>
+                    <li class="googleplus">
+                        <a href="#">Share on Google+</a>
+                    </li>
+                </ul>
+            </div-->
+    </div>
+    <center>
+        <svg width="750" height="750" style="margin-top: 65px;"></svg>
+    </center>
 </body>
 
-<script src="https://d3js.org/d3.v4.min.js"></script>
+
+
 <script>
 
-var svg = d3.select("svg"),
-    margin = 20,
-    diameter = +svg.attr("width"),
-    g = svg.append("g").attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
+    var input = document.querySelector('.search-form');
+    var search = document.querySelector('input')
+    var button = document.querySelector('button');
+    button.addEventListener('click', function (e) {
+        e.preventDefault();
+        input.classList.toggle('active');
+    })
+    search.addEventListener('focus', function () {
+        input.classList.add('focus');
+    })
 
-var color = d3.scaleLinear()
-    .domain([-1, 5])
-    .range(["hsl(152,80%,80%)", "hsl(228,30%,40%)"])
-    .interpolate(d3.interpolateHcl);
+    search.addEventListener('blur', function () {
+        search.value.length != 0 ? input.classList.add('focus') : input.classList.remove('focus');
+    })
 
-var pack = d3.pack()
-    .size([diameter - margin, diameter - margin])
-    .padding(2);
-var element;
+    var svg = d3.select("svg"),
+        margin = 20,
+        diameter = +svg.attr("width"),
+        g = svg.append("g").attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
 
- function search(text){
-   return element.children.filter( function (e) { return e.name === text});
-  }
+    var color = d3.scaleLinear()
+        .domain([-1, 5])
+        .range(["hsl(152,80%,80%)", "hsl(228,30%,40%)"])
+        .interpolate(d3.interpolateHcl);
 
-// Read from JSON file called Cateogries.json
-d3.json("categories.json", function(error, root) {
-  if (error) throw error;
-  element = root;
+    var pack = d3.pack()
+        .size([diameter - margin, diameter - margin])
+        .padding(2);
+    var element;
 
-// Creates a hierarchy of data
-  root = d3.hierarchy(root)
-      .sum(function(d) { return d.size; })
-      .sort(function(a, b) { return b.value - a.value; });
+    // Search function to enable a searching
+    function search(text) {
+        return element.children.filter(function (e) { return e.name === text });
+    }
 
-  var focus = root,
-      nodes = pack(root).descendants(),
-      view;
+    // Read from JSON file called Cateogries.json
+    d3.json("categories.json", function (error, root) {
+        if (error) throw error;
+        element = root;
 
-// Creates circle properties + event handler
-  var circle = g.selectAll("circle")
-    .data(nodes)
-    .enter().append("circle")
-      .attr("class", function(d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
-      .style("fill", function(d) { return d.children ? color(d.depth) : null; })
-      .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
+        // Creates a hierarchy of data
+        root = d3.hierarchy(root)
+            .sum(function (d) { return d.size; })
+            .sort(function (a, b) { return b.value - a.value; });
 
-// Creates tittle properties + return categories.json name label
-  var text = g.selectAll("text")
-    .data(nodes)
-    .enter().append("text")
-      .attr("class", "label")
-      .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
-      .style("display", function(d) { return d.parent === root ? "inline" : "none"; })
-      .text(function(d) { return d.data.name; });
+        var focus = root,
+            nodes = pack(root).descendants(),
+            view;
 
-// Creates group of circles with tittle
-  var node = g.selectAll("circle,text");
+        // Creates circle properties + event handler
+        var circle = g.selectAll("circle")
+            .data(nodes)
+            .enter().append("circle")
+            .attr("class", function (d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
+            .style("fill", function (d) { return d.children ? color(d.depth) : null; })
+            .on("click", function (d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
 
-// Creates different background colour in layers + Event handler to zoom in/out
-  svg
-      .style("background", color(-1))
-      .on("click", function() { zoom(root); });
+        // Creates tittle properties + return categories.json name label
+        var text = g.selectAll("text")
+            .data(nodes)
+            .enter().append("text")
+            .attr("class", "label")
+            .style("fill-opacity", function (d) { return d.parent === root ? 1 : 0; })
+            .style("display", function (d) { return d.parent === root ? "inline" : "none"; })
+            .text(function (d) { return d.data.name; });
 
-  zoomTo([root.x, root.y, root.r * 2 + margin]);
+        // Creates group of circles with tittle
+        var node = g.selectAll("circle,text");
 
-// Zoom function with time duration properties
-  function zoom(d) {
-    var focus0 = focus; focus = d;
+        // Creates different background colour in layers + Event handler to zoom in/out
+        svg
+            .style("background", color(-1))
+            .on("click", function () { zoom(root); });
 
-    var transition = d3.transition()
-        .duration(d3.event.altKey ? 7500 : 750)
-        .tween("zoom", function(d) {
-          var i = d3.interpolateZoom(view, [focus.x, focus.y, focus.r * 2 + margin]);
-          return function(t) { zoomTo(i(t)); };
-        });
+        zoomTo([root.x, root.y, root.r * 2 + margin]);
 
-// Transition effect for Category tittles
-    transition.selectAll("text")
-      .filter(function(d) { return d.parent === focus || this.style.display === "inline"; })
-        .style("fill-opacity", function(d) { return d.parent === focus ? 1 : 0; })
-        .on("start", function(d) { if (d.parent === focus) this.style.display = "inline"; })
-        .on("end", function(d) { if (d.parent !== focus) this.style.display = "none"; });
-  }
+        // Zoom function with time duration properties
+        function zoom(d) {
+            var focus0 = focus; focus = d;
 
-// Zoom in fucntion to map JSON values as coordinates
-  function zoomTo(v) {
-    var k = diameter / v[2]; view = v;
-    node.attr("transform", function(d) { return "translate(" + (d.x - v[0]) * k + "," + (d.y - v[1]) * k + ")"; });
-    circle.attr("r", function(d) { return d.r * k; });
-  }
-});
+            var transition = d3.transition()
+                .duration(d3.event.altKey ? 7500 : 750)
+                .tween("zoom", function (d) {
+                    var i = d3.interpolateZoom(view, [focus.x, focus.y, focus.r * 2 + margin]);
+                    return function (t) { zoomTo(i(t)); };
+                });
+
+            // Transition effect for Category tittles
+            transition.selectAll("text")
+                .filter(function (d) { return d.parent === focus || this.style.display === "inline"; })
+                .style("fill-opacity", function (d) { return d.parent === focus ? 1 : 0; })
+                .on("start", function (d) { if (d.parent === focus) this.style.display = "inline"; })
+                .on("end", function (d) { if (d.parent !== focus) this.style.display = "none"; });
+        }
+
+        // Zoom in fucntion to map JSON values as coordinates
+        function zoomTo(v) {
+            var k = diameter / v[2]; view = v;
+            node.attr("transform", function (d) { return "translate(" + (d.x - v[0]) * k + "," + (d.y - v[1]) * k + ")"; });
+            circle.attr("r", function (d) { return d.r * k; });
+        }
+    });
+    var availableTags = [
+        "Startups",
+        "Bitlum",
+        "DiscoveryBlock",
+        "Wallets",
+        "Hardware",
+        "LNHW",
+        "Web Wallets",
+        "HTLC",
+        "Discovery Wallet",
+        "Desktop Wallets",
+        "Mobile Wallets",
+        "Shango",
+        "Eclair",
+        "Bitcoin Lightning",
+        "Atom Lightning",
+        "LigthningPeach",
+        "CoinOS",
+        "Fulmo",
+        "Zap iOS",
+        "Swift Lightning",
+        "Bit Box"
+    ];
+    $("#autocomplete").autocomplete({
+        source: availableTags
+    });
 </script>
