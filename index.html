@@ -46,10 +46,12 @@ var element;
    return element.children.filter( function (e) { return e.name === text});
   }
 
+// Read from JSON file called Cateogries.json
 d3.json("categories.json", function(error, root) {
   if (error) throw error;
   element = root;
 
+// Creates a hierarchy of data
   root = d3.hierarchy(root)
       .sum(function(d) { return d.size; })
       .sort(function(a, b) { return b.value - a.value; });
@@ -58,6 +60,7 @@ d3.json("categories.json", function(error, root) {
       nodes = pack(root).descendants(),
       view;
 
+// Creates circle properties + event handler
   var circle = g.selectAll("circle")
     .data(nodes)
     .enter().append("circle")
@@ -65,6 +68,7 @@ d3.json("categories.json", function(error, root) {
       .style("fill", function(d) { return d.children ? color(d.depth) : null; })
       .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
 
+// Creates tittle properties + return categories.json name label
   var text = g.selectAll("text")
     .data(nodes)
     .enter().append("text")
@@ -73,14 +77,17 @@ d3.json("categories.json", function(error, root) {
       .style("display", function(d) { return d.parent === root ? "inline" : "none"; })
       .text(function(d) { return d.data.name; });
 
+// Creates group of circles with tittle
   var node = g.selectAll("circle,text");
 
+// Creates different background colour in layers + Event handler to zoom in/out
   svg
       .style("background", color(-1))
       .on("click", function() { zoom(root); });
 
   zoomTo([root.x, root.y, root.r * 2 + margin]);
 
+// Zoom function with time duration properties
   function zoom(d) {
     var focus0 = focus; focus = d;
 
@@ -91,6 +98,7 @@ d3.json("categories.json", function(error, root) {
           return function(t) { zoomTo(i(t)); };
         });
 
+// Transition effect for Category tittles
     transition.selectAll("text")
       .filter(function(d) { return d.parent === focus || this.style.display === "inline"; })
         .style("fill-opacity", function(d) { return d.parent === focus ? 1 : 0; })
@@ -98,6 +106,7 @@ d3.json("categories.json", function(error, root) {
         .on("end", function(d) { if (d.parent !== focus) this.style.display = "none"; });
   }
 
+// Zoom in fucntion to map JSON values as coordinates
   function zoomTo(v) {
     var k = diameter / v[2]; view = v;
     node.attr("transform", function(d) { return "translate(" + (d.x - v[0]) * k + "," + (d.y - v[1]) * k + ")"; });
