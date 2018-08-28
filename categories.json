@@ -289,8 +289,6 @@
       "children": [
         {
           "name": "Hardware",
-          "description": "",
-          "link": "",
           "size": 1616
         },
         {
@@ -298,22 +296,16 @@
           "children": [
             {
               "name": "Front-end",
-              "description": "",
-              "link": "",
               "size": 593
             },
             {
               "name": "Back-end",
-              "description": "",
-              "link": "",
               "size": 593
             }
           ]
         },
         {
           "name": "Business",
-          "description": "",
-          "link": "",
           "size": 1616
         }
       ]
@@ -329,8 +321,8 @@
               "children": [
                 {
                   "name": "Scaling Bitcoin with Lightning - Dr. Christian Decker",
-                  "description": "",
-                  "link": "",
+                  "description": "Christian Decker from Blockstream and the DLT staff from MainbornWolff gives us an introduction and deep-dive into the Lightning Network",
+                  "link": "https://www.youtube.com/watch?v=dAPv0tMwbiE",
                   "size": 700
                 }
               ]
@@ -568,14 +560,14 @@
                 },
                 {
                   "name": "Tor Guard",
-                  "description": "",
-                  "link": "",
+                  "description": "TorGuard VPN Service encrypts your internet access and provides an anonymous IP so you can browse securely",
+                  "link": "https://torguard.net/",
                   "size": 150
                 },
                 {
                   "name": "Coingate",
-                  "description": "",
-                  "link": "",
+                  "description": "Shop demo. Get a coffee latte paying with lightning network",
+                  "link": "https://example.coingate.com/",
                   "size": 150
                 },
                 {
@@ -592,8 +584,8 @@
                 },
                 {
                   "name": "Bitrefill",
-                  "description": "",
-                  "link": "",
+                  "description": "Refill your phone with bitcoin, send refills whoever you want worldwide",
+                  "link": "https://www.bitrefill.com/",
                   "size": 900
                 }
               ]
