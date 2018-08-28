@@ -24,7 +24,7 @@ body {
 .label,
 .node--root,
 .node--leaf {
-  pointer-events: all;
+  pointer-events: none;
 }
 
 * {
