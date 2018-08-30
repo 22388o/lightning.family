@@ -157,7 +157,7 @@ div.foo{
 .letter{
   display: inline-block;
   font-weight: 900;
-  font-size: 8em;
+  font-size: 4em;
   margin: 0.2em;
   position: relative;
   color: #00B4F1;
